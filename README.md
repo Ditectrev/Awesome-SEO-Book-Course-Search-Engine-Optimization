@@ -53,6 +53,10 @@ There are many ways to support us; in exchange, you'll get this material in a pr
    - Local SEO:
      - Google Business Profile (GBP);
      - Citations, Reviews, and Location Pages;
+   - AI Answers and Generative Discovery:
+     - GEO, AEO, AIO, LLMO, and related acronyms as the same job;
+     - Google AI Overviews and AI Mode;
+     - ChatGPT, Perplexity, and other answer engines;
    - SEO Analytics and Performance Tracking;
    - Common Challenges and Debugging Tips;
    - Additional Resources and Reading Materials;
@@ -347,11 +351,40 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Industry-Specific Directories for Niche Local SEO](#industry-specific-directories-for-niche-local-seo)
     - [Regular Audits to Ensure Consistent Local Presence](#regular-audits-to-ensure-consistent-local-presence)
   - [Summary: Local SEO](#summary-local-seo)
+- [AI Answers and Generative Discovery](#ai-answers-and-generative-discovery)
+  - [Same Job, Different Clothes](#same-job-different-clothes)
+    - [Why This Is Still SEO](#why-this-is-still-seo)
+    - [Where People Find You Now](#where-people-find-you-now)
+    - [What Changed and What Did Not](#what-changed-and-what-did-not)
+  - [Decode the Acronyms](#decode-the-acronyms)
+    - [GEO, AEO, AIO, and LLMO](#geo-aeo-aio-and-llmo)
+    - [SXO, VEO, GIO, and AgEO](#sxo-veo-gio-and-ageo)
+    - [Acronyms We Skip (and Why)](#acronyms-we-skip-and-why)
+  - [The Shared Practice](#the-shared-practice)
+    - [Be Eligible to Be Retrieved](#be-eligible-to-be-retrieved)
+    - [Write Extractable, Citable Answers](#write-extractable-citable-answers)
+    - [Prove Experience, Entities, and Trust](#prove-experience-entities-and-trust)
+    - [Earn Mentions the Web Already Believes](#earn-mentions-the-web-already-believes)
+    - [Structured Data, Media, and Local Facts](#structured-data-media-and-local-facts)
+  - [Google AI Overviews and AI Mode](#google-ai-overviews-and-ai-mode)
+    - [How Google Grounds Generative Answers](#how-google-grounds-generative-answers)
+    - [Eligibility Versus Inclusion](#eligibility-versus-inclusion)
+    - [What Google Says You Can Ignore](#what-google-says-you-can-ignore)
+    - [Measuring Generative AI in Search Console](#measuring-generative-ai-in-search-console)
+  - [Chatbots, Assistants, and Other Answer Engines](#chatbots-assistants-and-other-answer-engines)
+    - [ChatGPT, Gemini, Copilot, Claude, and Perplexity](#chatgpt-gemini-copilot-claude-and-perplexity)
+    - [Training Crawlers Versus Search Crawlers](#training-crawlers-versus-search-crawlers)
+    - [robots.txt Decisions Without Panic](#robotstxt-decisions-without-panic)
+  - [Voice, Visual, and Agent Surfaces](#voice-visual-and-agent-surfaces)
+    - [Voice and Visual as the Same Practice](#voice-and-visual-as-the-same-practice)
+    - [Preparing Pages for Browser Agents](#preparing-pages-for-browser-agents)
+  - [Summary: AI Answers and Generative Discovery](#summary-ai-answers-and-generative-discovery)
 - [SEO Analytics and Performance Tracking](#seo-analytics-and-performance-tracking)
   - [SEO Metrics and Key Performance Indicators (KPIs)](#seo-metrics-and-key-performance-indicators-kpis)
     - [Measuring Organic Traffic and Conversion Metrics](#measuring-organic-traffic-and-conversion-metrics)
     - [Using [Google Analytics](https://analytics.google.com/) to Track Traffic Sources](#using-google-analytics-to-track-traffic-sources)
     - [Defining and Tracking SEO Goals and Conversions](#defining-and-tracking-seo-goals-and-conversions)
+    - [Measuring Citations and AI Answer Visibility](#measuring-citations-and-ai-answer-visibility)
     - [Advanced Keyword Performance Analysis](#advanced-keyword-performance-analysis)
     - [Monitoring Keyword Rankings and Seasonal Trends](#monitoring-keyword-rankings-and-seasonal-trends)
     - [Tools for Comprehensive Keyword Tracking (e.g., [Ahrefs](https://ahrefs.com/), [SEMrush](https://www.semrush.com/))](#tools-for-comprehensive-keyword-tracking-eg-ahrefs-semrush)
@@ -376,15 +409,18 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [Balancing SEO and User Experience](#balancing-seo-and-user-experience)
   - [Managing Limited Resources for SEO Implementation](#managing-limited-resources-for-seo-implementation)
   - [Handling Negative SEO and Unwanted Backlinks](#handling-negative-seo-and-unwanted-backlinks)
+  - [When AI Answers Reduce Clicks](#when-ai-answers-reduce-clicks)
   - [Summary: Common Challenges and Debugging Tips](#summary-common-challenges-and-debugging-tips)
 - [Conclusion: Search Engine Optimization Course](#conclusion-search-engine-optimization-course)
   - [Recap of Key SEO Concepts](#recap-of-key-seo-concepts)
     - [Overview of On-Page, Off-Page, and Technical SEO](#overview-of-on-page-off-page-and-technical-seo)
+    - [AI Answers Belong in the Same Loop](#ai-answers-belong-in-the-same-loop)
     - [Importance of Consistent SEO Strategy and Adaptation](#importance-of-consistent-seo-strategy-and-adaptation)
     - [The Role of Continuous Learning in SEO](#the-role-of-continuous-learning-in-seo)
   - [Future of SEO](#future-of-seo)
     - [Emerging Trends: AI, Voice Search, and Visual Search](#emerging-trends-ai-voice-search-and-visual-search)
     - [AI in Ranking and Content](#ai-in-ranking-and-content)
+    - [Generative Answers Stay in This Book](#generative-answers-stay-in-this-book)
     - [Voice Search](#voice-search)
     - [Visual Search](#visual-search)
     - [SERP Features and Zero-Click Behavior](#serp-features-and-zero-click-behavior)
@@ -405,6 +441,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [If you already have traffic but few leads](#if-you-already-have-traffic-but-few-leads)
     - [If you are local](#if-you-are-local)
     - [If you manage a large or messy site](#if-you-manage-a-large-or-messy-site)
+    - [If customers ask chatbots before they click](#if-customers-ask-chatbots-before-they-click)
   - [Principles That Survive Algorithm Updates](#principles-that-survive-algorithm-updates)
   - [What to Leave Alone](#what-to-leave-alone)
   - [A 30-Day Close-the-Book Plan](#a-30-day-close-the-book-plan)
@@ -415,6 +452,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Comprehensive List of SEO Analysis Tools](#comprehensive-list-of-seo-analysis-tools)
     - [Keyword Research and Competitor Analysis Platforms](#keyword-research-and-competitor-analysis-platforms)
     - [Content Optimization and Performance Tracking Tools](#content-optimization-and-performance-tracking-tools)
+    - [AI Answer Engines, Crawlers, and Official Docs](#ai-answer-engines-crawlers-and-official-docs)
   - [Further Reading and Industry Publications](#further-reading-and-industry-publications)
     - [Top SEO Blogs and News Outlets to Follow](#top-seo-blogs-and-news-outlets-to-follow)
     - [Essential Books and Courses for Advanced SEO Knowledge](#essential-books-and-courses-for-advanced-seo-knowledge)
@@ -427,7 +465,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - **Documentation Reference:** [Google Search Central SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
 
-**Search Engine Optimization (SEO)** is the process of optimizing a website to improve its visibility and ranking on search engine results pages (SERPs). By using a combination of technical, on-page, and off-page strategies, SEO helps websites attract organic (non-paid) traffic from search engines like Google, Bing, and Yahoo. The ultimate goal of SEO is to ensure that a website ranks highly for relevant search queries, driving more visitors and potential customers to the site. Whether you run a business, work in marketing, or publish content, you need SEO for succeeding in the digital world.
+**Search Engine Optimization (SEO)** is the process of optimizing a website to improve its visibility and ranking on search engine results pages (SERPs). By using a combination of technical, on-page, and off-page strategies, SEO helps websites attract organic (non-paid) traffic from search engines like Google, Bing, and Yahoo. The same job now also covers generated answers: [Google AI Overviews](https://developers.google.com/search/docs/appearance/ai-features), [AI Mode](https://developers.google.com/search/docs/appearance/ai-features), and chat products such as [ChatGPT](https://chatgpt.com/) or [Perplexity](https://www.perplexity.ai/). We treat those surfaces as SEO in different clothes, not as a second discipline. The acronyms (GEO, AEO, AIO, LLMO, and the rest) are decoded in AI Answers and Generative Discovery, after Local SEO. The ultimate goal of SEO is to ensure that a website ranks highly for relevant search queries, driving more visitors and potential customers to the site. Whether you run a business, work in marketing, or publish content, you need SEO for succeeding in the digital world.
 #### Definition and Importance
 SEO is a critical component of digital marketing because it directly impacts a website's ability to attract visitors, generate leads, and drive conversions. Below are the key reasons why SEO is essential:
 
@@ -452,6 +490,7 @@ SEO is a critical component of digital marketing because it directly impacts a w
 #### 5. Competitive Advantage
 - **Outranking Competitors:** In competitive industries, SEO can be the difference between being found and being overlooked.
 - **Local SEO:** For businesses with a physical presence, local SEO helps attract nearby customers searching for products or services.
+- **AI answers:** The same pages can be cited in AI Overviews and chatbots; that is still SEO, covered in a later chapter.
 
 #### 6. Data-Driven Insights
 - **Analytics and Reporting:** SEO tools like [Google Analytics](https://analytics.google.com/) and [Search Console](https://search.google.com/search-console) provide valuable data on user behavior, keyword performance, and conversion rates.
@@ -4340,10 +4379,330 @@ Keep a simple source-of-truth sheet: legal name, public name, address line 1, ad
 
 ### Summary: Local SEO
 
-We covered Google Business Profile, NAP consistency, location pages, and reviews. You should treat maps and the local pack as part of SEO, not a side listing. Next, we will measure whether the work is converting in SEO Analytics and Performance Tracking.
+We covered Google Business Profile, NAP consistency, location pages, and reviews. You should treat maps and the local pack as part of SEO, not a side listing. Next, we will apply the same job to chatbots and generated answers in AI Answers and Generative Discovery.
+
+## AI Answers and Generative Discovery
+
+People still ask a question and want a trustworthy answer. What changed is the costume: the answer may appear in a classic blue-link list, in a Google AI Overview, in [ChatGPT](https://chatgpt.com/), [Gemini](https://gemini.google.com/), [Microsoft Copilot](https://copilot.microsoft.com/), [Claude](https://claude.ai/), [Perplexity](https://www.perplexity.ai/), or in a voice or agent flow. This chapter decodes the acronyms (GEO, AEO, AIO, LLMO, and the rest), then teaches the shared practice. SEO stays the foundation. Local SEO was one extra surface on the same job; AI answers are another.
+
+- **Documentation Reference:** [Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+
+### Same Job, Different Clothes
+
+You already know the job from earlier chapters: help a person (and the machines that fetch pages for that person) discover you, understand you, trust you, and choose you. Generative answers did not replace that loop. They changed where the first answer is assembled.
+
+#### Why This Is Still SEO
+
+Google’s own guidance is blunt: from Search’s perspective, optimizing for generative AI search is optimizing for the search experience, and thus still SEO. Retrieval-augmented generation (RAG) and query fan-out pull pages from the Search index, then generate a response with supporting links. If you are not crawlable, indexable, snippet-eligible, and worth retrieving, you are not in the candidate set.
+
+The same logic applies outside Google. Chat products that search the live web still need a public URL they can fetch. Models that cite sources still prefer pages that state a clear answer, name the entity, and show why the source is qualified. None of that is a new craft with a new syllabus. It is on-page, off-page, and technical SEO aimed at a generated paragraph instead of (or in addition to) a ten-blue-link list.
+
+Treat vendor “GEO packages” the way you already treat vendor “SEO packages”: useful if they help you ship the work; ignore them if they sell a secret file, a guaranteed citation, or a ranking factor Google has said it does not use.
+
+- **Documentation Reference:** [Google Search’s guidance on third-party SEO tools and advice](https://developers.google.com/search/docs/fundamentals/third-party-seo)
+
+#### Where People Find You Now
+
+Map the surfaces before you map the acronyms. A person with a job-to-be-done might:
+
+1. **Scan a classic SERP** — titles, descriptions, sitelinks, local pack, ads.
+2. **Read a generated overview on the SERP** — [Google AI Overviews](https://developers.google.com/search/docs/appearance/ai-features) and [AI Mode](https://developers.google.com/search/docs/appearance/ai-features), or similar Copilot-style answers on [Bing](https://www.bing.com/).
+3. **Ask a chatbot** — [ChatGPT](https://chatgpt.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Microsoft Copilot](https://copilot.microsoft.com/), [Perplexity](https://www.perplexity.ai/), and whatever ships next.
+4. **Speak a question** — Assistant, Siri, Alexa, in-car, and “near me” voice (covered in Technical SEO; we reconnect it below).
+5. **Search from a photo or a product image** — visual search, already in Technical SEO.
+6. **Delegate the task to an agent** — a browser or shopping agent that clicks, compares, and books on someone’s behalf.
+
+You do not need a separate strategy document for each costume. You need one site that is eligible, extractable, and trusted, plus measurement for both clicks and citations.
+
+#### What Changed and What Did Not
+
+**Changed**
+- More answers are assembled on the results surface or in a chat, so some queries earn fewer clicks even when you are cited.
+- Follow-up questions and query fan-out mean one prompt can retrieve several of your URLs — or several competitors’ URLs.
+- Brand mentions on other sites, forums, and videos feed both classic ranking systems and generated answers.
+- Training crawlers and search crawlers are different bots. Blocking one is not the same as blocking the other.
+
+**Did not change**
+- You still cannot rank or be cited for a page the crawler cannot fetch.
+- Helpful, people-first content still beats keyword lists and spun summaries.
+- E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) still matters, especially on YMYL topics.
+- Measurement still starts with [Search Console](https://search.google.com/search-console) and conversions, not with a vendor’s “AI rank.”
+
+If a tactic would have been spam on a SERP (doorway pages, purchased mentions, unedited bulk), it is still spam when the output is a chatbot paragraph.
+
+### Decode the Acronyms
+
+The industry renamed the same work several times. Learn the labels so you can translate a sales deck or a conference talk, then do the work under whatever name your stakeholders already use. We will not put this soup on the cover of the book. SEO stays the name of the practice.
+
+#### GEO, AEO, AIO, and LLMO
+
+**Generative Engine Optimization (GEO)** is the academic-looking label for being retrieved and cited inside generated answers (chatbots, AI Overviews, answer engines). A 2023 research paper popularized the term; vendors then sold it as a product category. In practice: make pages worth citing, and make the rest of the web describe you accurately.
+
+**Answer Engine Optimization (AEO)** started in the featured-snippet and voice-search era: be the passage an engine can lift. Teams revived it for AI Overviews and chat citations. Some people say AEO means “be the answer” and GEO means “be a source the answer draws from.” That distinction is tidy in a slide and mushy in a log file. Write the direct answer, then the proof.
+
+**AI Optimization / AI Overviews (AIO)** is used two ways. Most practitioners saying “optimize for AIO” mean Google AI Overviews. Others use AIO as an umbrella for every AI surface. Ask which one they mean. Google’s product names are **AI Overviews** and **AI Mode**, not “AIO.”
+
+**Large Language Model Optimization (LLMO)** is a vendor label for shaping what models say about you — citations in grounded search *and* how you appear when a model answers from training memory. The durable half is still public, crawlable, citable pages and real-world mentions. You do not “optimize a model” the way you optimize a title tag.
+
+Cousins you will also hear: **AIEO** (AI Engine Optimization), **AISO** (AI Search Optimization), **GAIO** (Generative AI Optimization). Same job. If a slide adds another vowel, decode it and keep working.
+
+#### SXO, VEO, GIO, and AgEO
+
+**Search Experience Optimization (SXO)** predates chatbots. It means SEO plus on-site experience and conversion: you are found *and* the visit is usable. That is already this book’s on-page, technical, and analytics spine. AI answers make SXO more important, not less: a citation that sends a frustrated click is a wasted citation.
+
+**Voice Engine Optimization (VEO)** is spoken answers — Assistants, in-car, “near me,” and question-style queries. Technical SEO already covers conversational keywords and extractable FAQs. Treat VEO as that work, not a new department. (Some decks use VEO for *video* or *visual* engines. If they mean video or image search, use the visual-search and media guidance you already have. Ask which costume they bought.)
+
+**Generative Information Optimization (GIO)** is another vendor synonym for GEO/LLMO: information shaped so generative systems can reuse it. There is no separate ranking system named GIO. If a tool reports a “GIO score,” treat it like Domain Authority — a third-party number, not Google’s.
+
+**Agent Engine Optimization (AgEO)** is the newest costume: AI agents that browse, compare, fill forms, and complete tasks. The extra work is making key journeys machine-operable (semantic HTML, labeled inputs, stable layout, accessible names). Google documents this as agent-friendly sites, not as a replacement for SEO. We cover the practical subset later in this chapter.
+
+- **Documentation Reference:** [Build agent-friendly websites](https://web.dev/articles/ai-agent-site-ux)
+
+#### Acronyms We Skip (and Why)
+
+**App Store Optimization (ASO)** ranks apps inside [Apple App Store](https://www.apple.com/app-store/) and [Google Play](https://play.google.com/store), not the web index. Different marketplace, different levers (title/subtitle keywords, screenshots, ratings, release cadence). It is not another SERP costume, so it is not this book.
+
+Skip any acronym whose only content is “pay us to insert `llms.txt` and guaranteed ChatGPT citations.” That is a product, not a practice.
+
+### The Shared Practice
+
+Here is the work once. Every acronym above is a camera angle on this list.
+
+#### Be Eligible to Be Retrieved
+
+If the page cannot be crawled, indexed, and shown with a snippet, Google cannot use it as a supporting link in AI Overviews or AI Mode. Other answer engines that fetch the live web have the same first filter: a public URL that returns useful text.
+
+**Eligibility checklist (Google Search, which is also the AI Overview/AI Mode bar)**
+1. The URL is allowed in `robots.txt` for [Googlebot](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) (and not blocked by a CDN/WAF that thinks Google is an attack).
+2. The page is indexable (no accidental `noindex`, login wall, or soft 404).
+3. The page is eligible to show a snippet (you have not disabled previews with `nosnippet` unless that is a deliberate choice).
+4. Important content is in the HTML text, not only in an image or a widget the crawler never sees.
+5. Internal links can actually discover the URL.
+6. The Search Console property is included in Search generative AI features if Google exposes that control on the property.
+
+Eligibility is necessary and never sufficient. Google still decides whether an AI feature triggers and which sources support a given response.
+
+- **Documentation Reference:** [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+
+#### Write Extractable, Citable Answers
+
+Models and snippet systems lift passages that can stand alone. That is the old featured-snippet habit, not a new file format.
+
+**Write the page for a human first, then make the answer easy to lift:**
+- Put a direct answer near the question-style heading: one or two sentences that would still be true if quoted alone.
+- Follow with proof: numbered steps, a table, constraints, exceptions, and a named source for any statistic (who measured it, when).
+- Use headings that match how people ask (“How do we verify a [Google Business Profile](https://www.google.com/business/)?”), not a clever brand slogan.
+- Prefer specific nouns over vague ones. “Acme Plumbing in Austin repairs tankless water heaters” is an entity statement; “We care about quality service” is not.
+- Keep author, date, and update visible on pages that claim facts. Stale undated medical or legal advice is a trust problem in SERPs and in chat.
+- Do not clone the SERP. Google’s generative-AI guide asks for *non-commodity* content: first-hand experience, original data, a point of view that is not “seven generic tips.”
+
+A worked pattern you can reuse:
+
+```text
+#### How long does a residential water-heater install take?
+
+A standard tank water-heater swap in a finished closet usually takes three to five hours once parts are on site. Same-day tankless installs often run a full day because of venting and electrical work.
+
+Scope that changes the clock: permit waits, pan and drain upgrades, and moving the unit to a new wall.
+```
+
+That block is useful to a person, easy to cite, and honest about limits. It is not “chunking for AI.” Google says you do not need to shatter articles into micro-pages for models to understand them. Write the length the reader needs.
+
+- **Documentation Reference:** [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+
+#### Prove Experience, Entities, and Trust
+
+Generated answers prefer sources that look like a real organization with a real expert, especially when the topic can affect health, money, or safety.
+
+**On the page**
+- Named author with credentials that match the topic.
+- First-hand language you can defend (what you tested, sold, repaired, or measured).
+- Contact, organization, and policy pages that match the brand elsewhere.
+- Quotes and data attributed to a primary source, not to “studies show.”
+
+**In the knowledge graph of the web**
+- Consistent legal name, brand name, and same-as profiles (site, [Wikipedia](https://www.wikipedia.org/) or Wikidata only if they already exist and are accurate — do not manufacture a wiki war).
+- [Google Business Profile](https://www.google.com/business/) and [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/) when you are local or sell products. Generative answers reuse those facts.
+- Reviews and mentions on sites people actually read, not on link farms.
+
+This is E-E-A-T and entity SEO. Calling it LLMO does not change the checklist.
+
+#### Earn Mentions the Web Already Believes
+
+Off-page SEO still matters because both ranking systems and generators look at what the rest of the web says. Google’s generative-AI guide warns against *inauthentic* mentions: paying for fake roundups, spraying AI-written “best of” posts, or stuffing your brand into unrelated forums.
+
+**Mentions worth earning**
+- A journalist, association, or practitioner citing your method or data.
+- A genuine forum or Reddit thread where a user recommends you for a specific job (you do not control this; you earn it by being recommendable).
+- Digital PR that publishes a unique dataset, tool, or local resource other sites want to link.
+
+**Mentions to skip**
+- “Write for us” networks that exist to sell AI-citation packages.
+- Identical guest posts with your brand swapped in.
+- Fake expert quotes.
+
+If you would be embarrassed to show the placement to a journalist and to Google’s spam team, it will not help a chatbot either.
+
+#### Structured Data, Media, and Local Facts
+
+Structured data is not a special AI-Overview schema. Google says there is no extra markup required for generative AI features, and that `llms.txt` does not affect Google Search. Keep using [schema.org](https://schema.org/) the way Technical SEO already taught: it must match the visible page, and it still helps rich results.
+
+Use the types you already need:
+- `Organization` / `LocalBusiness` with matching NAP.
+- `Product` / `Offer` when you sell things.
+- `FAQPage` only for FAQs the user can actually see.
+- `HowTo`, `Article`, `ImageObject`, `VideoObject` when they describe real content.
+
+Images and video are not decoration here. Google’s AI features can surface media as well as links. Descriptive filenames, alt text, captions, and transcripts remain the work.
+
+For local and product queries, stale hours or missing Merchant Center feeds will show up in generated answers as confidently as they show up in the local pack. Keep the Local SEO source-of-truth sheet current.
+
+### Google AI Overviews and AI Mode
+
+This is the Google-shaped costume of the same job. Other chat products are next.
+
+- **Documentation Reference:** [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+
+#### How Google Grounds Generative Answers
+
+AI Overviews appear when Google decides a generated gist adds something beyond classic results. They often do not trigger. AI Mode is the more conversational, multi-step surface for comparisons and layered questions.
+
+Both may use **query fan-out**: the model issues related searches (for “fix a weedy lawn,” it might also retrieve herbicides, non-chemical removal, and prevention) and then grounds the response in retrieved pages. That is why covering a topic in depth on a well-linked site can earn supporting links even when the user’s original phrasing is not on your H1.
+
+Google describes this as RAG over the Search index, not as a separate “GEO index.” Your technical SEO, content quality, and snippet eligibility are the on-ramps.
+
+#### Eligibility Versus Inclusion
+
+**Eligible** means: indexed, snippet-capable, policy-compliant, and (where the control exists) included in Search generative AI features in [Search Console](https://search.google.com/search-console).
+
+**Included** means Google chose your URL as a supporting link for a given response. You cannot force that any more than you can force position one.
+
+If you want to *limit* how much of a page can be shown in Search (including AI features), use the preview controls you already have: `nosnippet`, `data-nosnippet`, `max-snippet`, or `noindex`. `robots.txt` for Googlebot is still the crawl control for Search. Do not confuse that with [Google-Extended](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers), which is a separate token for Gemini apps / Vertex grounding and **does not** change Search inclusion or ranking.
+
+#### What Google Says You Can Ignore
+
+Google published a myth list. For Google Search, you can skip:
+
+- **`llms.txt` and similar “AI markdown” files.** Search does not use them. Maintaining one for other tools neither helps nor hurts Google.
+- **Chunking content into tiny AI-only pages.** Write for readers. Length follows the job, not a token window rumor.
+- **Rewriting every paragraph “for the model.”** Systems already handle synonyms and related queries. Fan-out is not a reason to violate scaled-content spam policy with one URL per wording.
+- **Buying inauthentic mentions** to game generative answers.
+- **Special AI schema.** Use structured data for people and rich results, not as a secret handshake.
+
+If a GEO vendor’s first deliverable is one of those five, you are buying a file, not visibility.
+
+#### Measuring Generative AI in Search Console
+
+- **Documentation Reference:** [Generative AI performance report (Search)](https://support.google.com/webmasters/answer/16984139)
+
+[Search Console](https://search.google.com/search-console) counts AI Overviews and AI Mode in the overall Web performance report. Google also ships a dedicated **Generative AI performance report** (Search and Discover variants) that groups impressions by page, country, device, and date. Use it to see which URLs appear as supporting links.
+
+**How to read it without panicking**
+- Impressions here mean your URL was shown in a generative feature, not that you “ranked #1 for AI.”
+- Clicks from pages with AI Overviews are mixed into normal Search clicks; Google has said those clicks often show stronger on-site engagement. Measure conversions in [GA4](https://analytics.google.com/), not only CTR.
+- Compare generative impressions to classic query data. A page can gain AI impressions while losing clicks on informational queries — that can be a SERP-layout shift, not a quality collapse.
+- No third-party “AI rank tracker” has Google’s internal data. Use them as directional samples, then verify in Search Console.
+
+We will fold this into the Analytics chapter’s weekly review so it does not live only here.
+
+### Chatbots, Assistants, and Other Answer Engines
+
+Google is one retrieval system. Users also ask products that mix a live web search with a model’s training memory. The shared practice still applies. The new operational detail is **which bot you allow**.
+
+#### ChatGPT, Gemini, Copilot, Claude, and Perplexity
+
+Walk your money queries through the tools your customers actually use. You are not looking for a vanity screenshot. You are looking for: Are we named? Are we cited? Is the fact right? Who is cited instead?
+
+| Surface | What to check | Primary fetch / index signal |
+| --- | --- | --- |
+| [ChatGPT](https://chatgpt.com/) with search | Cited links and brand description | [OAI-SearchBot](https://developers.openai.com/api/docs/bots) (search) vs [GPTBot](https://developers.openai.com/api/docs/bots) (training) |
+| [Gemini](https://gemini.google.com/) apps | Whether Gemini is allowed to use your content for training/grounding outside Search | [Google-Extended](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) (does **not** control Google Search) |
+| [Microsoft Copilot](https://copilot.microsoft.com/) / [Bing](https://www.bing.com/) | Citations next to the generated answer | [Bingbot](https://www.bing.com/webmasters) via [Bing Webmaster Tools](https://www.bing.com/webmasters) |
+| [Claude](https://claude.ai/) | Accuracy of answers and whether search citations appear | [Claude-SearchBot](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) vs [ClaudeBot](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) (training) vs Claude-User (on-demand fetch) |
+| [Perplexity](https://www.perplexity.ai/) | Inline citations | [PerplexityBot](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) (search; not for foundation-model training, per their docs) |
+
+Prompt the tool the way a customer would (“best emergency plumber near me who actually replaces tankless units”), then a branded query (“what does {brand} charge for X”). Log the date, the wording, whether you were cited, and the competing URLs. Repeat quarterly. That log is more honest than a lead-magnet “GEO score.”
+
+#### Training Crawlers Versus Search Crawlers
+
+Most major labs now split the user agents:
+
+- **Search / retrieval bots** build the live answer index (OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot for Search). Blocking these usually means “do not cite me in that product’s search answers.”
+- **Training bots** collect content that *may* be used in future model weights (GPTBot, ClaudeBot). Blocking these is a licensing/policy choice. It does not, by itself, remove you from that company’s search index.
+- **User-initiated fetchers** (ChatGPT-User, Claude-User, Perplexity-User) retrieve a page because a person asked. Several vendors say `robots.txt` may not apply the same way, because a user triggered the fetch.
+
+Google Search does not use GPTBot. Allowing or denying GPTBot does not change AI Overviews. [Google-Extended](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) does not change Search ranking. Keep those controls mentally on a different shelf from Googlebot.
+
+- **Documentation Reference:** [Google’s common crawlers (including Google-Extended)](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers)
+
+#### robots.txt Decisions Without Panic
+
+Decide in writing, then implement. A default that fits most businesses that *want* to be found:
+
+1. **Allow search crawlers** for the products your customers use (Googlebot, Bingbot, OAI-SearchBot, PerplexityBot, Claude-SearchBot) unless legal says otherwise.
+2. **Decide training crawlers separately** with whoever owns copyright and privacy (GPTBot, ClaudeBot, Google-Extended). Publish that decision so the next developer does not “block all bots” in a firewall panic.
+3. **Allow `robots.txt` itself** so the crawler can read your rules. IP-blocking a bot often prevents it from seeing the opt-out.
+4. **Whitelist known bot IPs on the WAF** when you allow them. Many “we disappeared from ChatGPT” incidents are a bot-mitigation product eating OAI-SearchBot.
+5. **Do not use `robots.txt` as a ranking hack.** It is an access-control file.
+
+```txt
+# Example: allow live-answer search, decline OpenAI training.
+# Confirm tokens and IP lists on each vendor’s current docs before you ship this.
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Disallow: /
+```
+
+Read the live documentation before you copy this: [OpenAI crawlers](https://developers.openai.com/api/docs/bots), [Perplexity crawlers](https://docs.perplexity.ai/docs/resources/perplexity-crawlers), [Anthropic crawlers](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler). Tokens change. Your legal team may choose the opposite training policy. The point is the *split*, not this exact file.
+
+Optional files such as [`llms.txt`](https://llmstxt.org/) are fine if another system you care about consumes them. Google Search ignores them. Do not delay real pages for a `/llms.txt` project.
+
+### Voice, Visual, and Agent Surfaces
+
+These are still web discovery. They are not a second book.
+
+#### Voice and Visual as the Same Practice
+
+Voice queries are short, spoken, and often local. You already built the habit in Technical SEO: conversational long-tail, FAQ structure, hours and entity facts a spoken answer can read aloud. That is VEO without a new team.
+
+Visual queries start from a photo. You already have image SEO: unique images, alt text, nearby copy, product/image markup, compression. Generated answers that include images reuse that same media.
+
+When a product reads an answer aloud, the extractable two-sentence block you wrote above is the script. When it shows a product tile, Merchant Center and product structured data are the feed. No extra acronym required.
+
+#### Preparing Pages for Browser Agents
+
+Agents act. They read the DOM, the accessibility tree, and sometimes a screenshot to click “Book,” “Add to cart,” or “Get quote.” Google’s generative-AI guide treats this as optional extra work when it is relevant, not as a ranking hack.
+
+**If customers might send an agent to complete a task on your site:**
+- Use real `<button>` and `<a>` elements, not clickable `<div>`s.
+- Label every input (`<label for="…">`). Accessible names help agents and assistive tech.
+- Keep primary actions in a stable layout (low CLS). A moving “Add to cart” is hard for screenshot-based agents.
+- Avoid invisible overlays that cover the control the agent thinks it is clicking.
+- Prefer server-rendered, crawlable critical content. An agent that does not execute your JavaScript bundle will not see a client-only price.
+- Do not stuff ARIA to “game” agents. ARIA is for meaning. Access control belongs in `robots.txt`, auth, and bot management.
+
+Emerging commerce protocols (for example Universal Commerce Protocol) may let Search agents transact more directly. Watch Google’s agent-friendly guidance; do not pause your money-page SEO to implement every draft protocol on day one.
+
+- **Documentation Reference:** [Build agent-friendly websites](https://web.dev/articles/ai-agent-site-ux)
+
+### Summary: AI Answers and Generative Discovery
+
+We decoded GEO, AEO, AIO, LLMO, SXO, VEO, GIO, and AgEO as costumes of the same job, left App Store Optimization (ASO) in a different marketplace, and practiced eligibility, extractable answers, trust, mentions, Google AI features, chatbot crawlers, and agent-ready pages. You should be able to explain any new vowel-string in one sentence and then return to the working loop. Next, we will measure both classic search and generative appearances in SEO Analytics and Performance Tracking.
 
 ## SEO Analytics and Performance Tracking
-SEO without measurement is guesswork. Analytics tells you whether organic search is sending the right people, whether those people convert, and where technical or content issues are blocking growth. This chapter covers the metrics that matter, the tools used to collect them, and how to audit and report on a regular cadence.
+SEO without measurement is guesswork. Analytics tells you whether organic search is sending the right people, whether those people convert, and where technical or content issues are blocking growth. It also tells you whether you are cited in generated answers even when the click never arrives. This chapter covers the metrics that matter, the tools used to collect them, and how to audit and report on a regular cadence.
 
 ### SEO Metrics and Key Performance Indicators (KPIs)
 Pick KPIs from business goals, not from whatever a rank tracker highlights in red. A publisher may care about engaged sessions and newsletter signups. A local clinic may care about calls and booked appointments. Rankings are a leading indicator; revenue, leads, and qualified traffic are the outcomes.
@@ -4407,6 +4766,24 @@ If you do not define a conversion, SEO cannot be credited or improved.
 - Cost per organic lead vs. paid.  
 - Rankings and GBP actions as supporting metrics.
 
+#### Measuring Citations and AI Answer Visibility
+Classic organic sessions miss the queries where an AI Overview or a chatbot answered first. Add a short visibility track next to rankings — not instead of conversions.
+
+- **Documentation Reference:** [Generative AI performance report (Search)](https://support.google.com/webmasters/answer/16984139)
+
+**Google Search (AI Overviews and AI Mode)**
+- Use the [Search Console](https://search.google.com/search-console) **Generative AI performance report** for impressions, pages, countries, and devices. AI features also roll into the overall Web performance report.
+- Pair those impressions with [GA4](https://analytics.google.com/) landing-page conversions. Google has noted that clicks from results that include AI Overviews often show stronger on-site engagement; prove it on your site.
+- Confirm the property remains included in Search generative AI features when Search Console exposes that setting.
+
+**Chat and answer engines**
+- Quarterly prompt log: money queries and brand queries in [ChatGPT](https://chatgpt.com/), [Perplexity](https://www.perplexity.ai/), [Gemini](https://gemini.google.com/), [Microsoft Copilot](https://copilot.microsoft.com/), and [Claude](https://claude.ai/) if those are where your customers ask.
+- Record cited URL, competing URLs, and factual errors. That is a citation sample, not a rank.
+- Watch server logs / WAF for [OAI-SearchBot](https://developers.openai.com/api/docs/bots), [PerplexityBot](https://docs.perplexity.ai/docs/resources/perplexity-crawlers), and [Claude-SearchBot](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler). A sudden “we vanished from ChatGPT” is often a blocked search crawler.
+
+**Reporting rule**
+Citation share is a leading indicator. Qualified leads and revenue stay the outcome. Do not replace a conversion dashboard with a vendor “GEO score.”
+
 #### Advanced Keyword Performance Analysis
 Traffic can rise while the keywords you care about stall. Keyword analysis connects pages to queries, intent, and seasonality.
 
@@ -4459,7 +4836,8 @@ Use Google’s query data first, then a rank tracker or suite to cover competito
 1. [Search Console](https://search.google.com/search-console): clicks, impressions, CTR, top declining pages.  
 2. Rank tracker: money terms vs. last 28 days.  
 3. Analytics: organic conversions, not only sessions.  
-4. Annotate deploys, content launches, and known Google updates.
+4. Generative AI impressions (Search Console report) plus any chatbot citation notes you logged.  
+5. Annotate deploys, content launches, and known Google updates.
 
 ### Utilizing SEO Tools for Performance Analysis
 No single tool tells the whole story. [Search Console](https://search.google.com/search-console) shows how Google saw your site. Analytics shows what users did. Crawlers show what is technically possible. Third-party suites estimate competitors.
@@ -4501,7 +4879,8 @@ Whether in [GA4](https://analytics.google.com/), [Looker Studio](https://lookers
 - Query × page mapping to catch **keyword cannibalization** (two URLs swapping for the same query).  
 - Device split: a mobile CTR or position gap vs. desktop often points to usability or content parity issues.  
 - Country split for international sites; pair with `hreflang` checks.  
-- Search Appearance: sitelinks, rich results, and (where available) other result types.
+- Search Appearance: sitelinks, rich results, and (where available) other result types.  
+- Generative AI performance report: which URLs appeared as supporting links in AI Overviews and AI Mode ([help article](https://support.google.com/webmasters/answer/16984139)).
 
 **Enhancements and Experience**
 - Review rich result reports for FAQ, product, review, and other markup you deploy.  
@@ -4581,8 +4960,9 @@ Automation will not judge whether content satisfies intent or whether E-E-A-T is
 3. **On-page**: titles, content quality, internal links, media.  
 4. **Off-page**: links, brand mentions, toxic patterns.  
 5. **Local** (if applicable): GBP, citations, reviews, location pages.  
-6. **Analytics**: tracking integrity, conversions, [Search Console](https://search.google.com/search-console) coverage.  
-7. **Prioritized actions**: impact × effort, not a dump of every tool warning.
+6. **AI answers**: robots access for search crawlers, Search Console generative impressions, a small prompt sample on money queries.  
+7. **Analytics**: tracking integrity, conversions, [Search Console](https://search.google.com/search-console) coverage.  
+8. **Prioritized actions**: impact × effort, not a dump of every tool warning.
 
 **Manual Spot Checks**
 - Render a sample of pages with JavaScript disabled and in a mobile emulator.  
@@ -4640,11 +5020,11 @@ Tie each recommendation to evidence (“[Search Console](https://search.google.c
 
 ### Summary: SEO Analytics and Performance Tracking
 
-We covered Search Console, analytics, reporting, and how to turn data into a backlog. You should be able to say which pages matter and whether organic visits convert. Next, we will look at Common Challenges and Debugging Tips.
+We covered Search Console, analytics, generative-AI impressions, reporting, and how to turn data into a backlog. You should be able to say which pages matter, whether organic visits convert, and whether AI answers even mention you. Next, we will look at Common Challenges and Debugging Tips.
 
 ## Common Challenges and Debugging Tips
 
-Every site hits the same handful of problems: updates, UX tradeoffs, limited time, and occasionally bad links. Here is a practical response to each.
+Every site hits the same handful of problems: updates, UX tradeoffs, limited time, unwanted links, and generated answers that satisfy the query without a click. Here is a practical response to each.
 
 ### Dealing with Algorithm Changes
 
@@ -4696,9 +5076,20 @@ Negative SEO is uncommon compared with self-inflicted problems, but toxic links 
 4. **Strengthen your own signals**: accurate citations, real reviews, and strong brand search.  
 5. **Do not panic-purchase “recovery” services** that sell more links.
 
+### When AI Answers Reduce Clicks
+
+- **Challenge**: Informational queries show an AI Overview or a chatbot answer, so clicks fall even when you are still cited — or you are not cited at all.
+- **Debugging Tips**:
+- **Separate layout shift from quality loss.** Check the [Generative AI performance report](https://support.google.com/webmasters/answer/16984139) and classic query data before rewriting the page.  
+- **Confirm eligibility.** Indexed, snippet-eligible, Googlebot allowed, important text in HTML. Then confirm chatbot *search* crawlers are not blocked by `robots.txt` or the WAF.  
+- **Strengthen the click you still get.** Unique data, tools, calculators, pricing, booking, and first-hand proof belong on the page. Commodity recaps will keep losing the click.  
+- **Win the citation when the click is gone.** Direct answers, entity-clear copy, and real mentions (see AI Answers and Generative Discovery).  
+- **Do not buy “guaranteed ChatGPT citations.”** Treat them like guaranteed rankings.  
+- **Do not block Googlebot** to “stop AI Overviews.” That removes you from Search. Use snippet controls (`nosnippet`, `max-snippet`) only when you truly do not want previews.
+
 ### Summary: Common Challenges and Debugging Tips
 
-We walked through algorithm volatility, UX tradeoffs, limited time, and unwanted links. You now have a debug order instead of a panic rewrite. Next, we will close the course with a 30-day plan in Conclusion: Search Engine Optimization Course.
+We walked through algorithm volatility, UX tradeoffs, limited time, unwanted links, and thinner clicks from generated answers. You now have a debug order instead of a panic rewrite. Next, we will close the course with a 30-day plan in Conclusion: Search Engine Optimization Course.
 
 ## Conclusion: Search Engine Optimization Course
 
@@ -4706,15 +5097,21 @@ This book is a working loop, not a list of tricks. Search engines crawl pages, d
 
 ### Recap of Key SEO Concepts
 
-If you remember only one framework from this book, remember the three working layers of SEO and how local search sits on top of them.
+If you remember only one framework from this book, remember the three working layers of SEO and how local search and AI answers sit on top of them.
 
 #### Overview of On-Page, Off-Page, and Technical SEO
 - **On-page SEO** is what you put on the page: content that matches intent, titles and headings, internal links, images, and HTML that clarifies the topic.  
 - **Off-page SEO** is what the rest of the web says about you: backlinks, brand mentions, reviews, and citations. Quality beats volume.  
 - **Technical SEO** is whether search engines can find, understand, and serve the site: crawlability, indexation, canonicalization, site architecture, speed, mobile usability, HTTPS, and structured data.  
-- **Local SEO** applies all three to a geographic market, with [Google Business Profile](https://www.google.com/business/) and NAP consistency as extra pillars.
+- **Local SEO** applies all three to a geographic market, with [Google Business Profile](https://www.google.com/business/) and NAP consistency as extra pillars.  
+- **AI answers** apply all three to generated overviews and chatbots: eligibility to be retrieved, extractable answers, and mentions the rest of the web already believes.
 
-These areas overlap. A slow location page with great reviews still loses users. A technically perfect site with thin content does not deserve to rank.
+These areas overlap. A slow location page with great reviews still loses users. A technically perfect site with thin content does not deserve to rank. A page nobody can cite will not show up in an AI Overview either.
+
+#### AI Answers Belong in the Same Loop
+GEO, AEO, AIO, LLMO, SXO, VEO, GIO, and AgEO are costumes of the loop you already run. Google says optimizing for generative AI features on Search is still SEO. Chat products add crawler choices (search bot vs training bot), not a second syllabus. App Store Optimization (ASO) remains a different marketplace and stays out of this volume.
+
+When a new acronym lands next year, decode it, then return to crawl, intent, content, trust, and measurement.
 
 #### Importance of Consistent SEO Strategy and Adaptation
 SEO compounds when you keep a backlog, ship improvements, and measure them. It decays when you treat it as a one-time project.
@@ -4739,18 +5136,21 @@ Search engines update constantly, but the learning habit matters more than any s
 
 ### Future of SEO
 
-The search results page will keep changing. The job remains the same: be the best answer for a real query, on a site machines can crawl and people can trust. The headings below cover trends already reshaping that job. They extend the same practice, not a replacement for it.
+The search results page will keep changing. The job remains the same: be the best answer for a real query, on a site machines can crawl and people can trust. AI Overviews, chatbots, and agents are not a sequel to this book — they already have a full chapter (AI Answers and Generative Discovery). The headings below cover remaining trends and the ranking-AI you met earlier, without dumping GEO here as an afterthought.
 
 #### Emerging Trends: AI, Voice Search, and Visual Search
 #### AI in Ranking and Content
-Search engines already use machine learning to interpret queries and pages (RankBrain, BERT, neural matching, and related systems discussed earlier). Practical implications:
+Search engines already use machine learning to interpret queries and pages (RankBrain, BERT, neural matching, and related systems discussed earlier). That is ranking AI, not a chatbot product name.
 - Write complete answers in natural language, not isolated keywords.  
 - Cover entities and related questions so the page is clearly about a topic.  
 - Keep human expertise visible on YMYL subjects (authors, sources, experience).  
 - Use AI writing tools, if at all, as drafts and outlines—not as a substitute for accuracy and first-hand knowledge. Thin, generated pages that repeat the SERP are a risk, not a strategy.
 
+#### Generative Answers Stay in This Book
+When someone says GEO, AEO, AIO, or LLMO in a meeting next year, send them to AI Answers and Generative Discovery. The acronym will change. The loop will not: eligibility, a citable answer, proof, and measurement in [Search Console](https://search.google.com/search-console). Do not start a second book for the next vowel-string.
+
 #### Voice Search
-Voice will remain important for local, mobile, and question-style queries. Structure FAQs, hours, and how-to content so a short spoken answer is easy to extract. Pair this with the voice-search section in Technical SEO.
+Voice will remain important for local, mobile, and question-style queries. Structure FAQs, hours, and how-to content so a short spoken answer is easy to extract. Pair this with the voice-search section in Technical SEO and the VEO note in AI Answers and Generative Discovery.
 
 #### Visual Search
 Cameras and image packs help users search from a photo instead of a phrase.
@@ -4804,7 +5204,7 @@ Stack skills in this order: fundamentals, analytics, technical crawling, then a 
 1. Finish a fundamentals path (this book + [Google Search Central](https://developers.google.com/search)).  
 2. Add analytics literacy ([GA4](https://analytics.google.com/) + [Looker Studio](https://lookerstudio.google.com/)).  
 3. Add a technical module (crawling, indexation, log files if you have scale).  
-4. Add a specialty only when your work needs it (local, ecommerce, international).  
+4. Add a specialty only when your work needs it (local, ecommerce, international). AI-answer measurement is part of the core loop, not a separate career track.  
 5. Collect certificates if they help your résumé, but keep a portfolio of before/after work—that is what employers and clients trust.
 
 #### Joining SEO Communities and Forums for Networking
@@ -4853,6 +5253,7 @@ Maintenance keeps wins from eroding.
 
 **Monthly**
 - [Search Console](https://search.google.com/search-console) performance and coverage.  
+- Generative AI impressions when the report has data.  
 - GBP reviews, hours, and posts (if local).  
 - Rank and conversion snapshot for money pages.  
 - Broken-link and uptime check.
@@ -4862,7 +5263,8 @@ Maintenance keeps wins from eroding.
 - Citation / NAP audit for local businesses.  
 - Backlink review and disavow consideration only if warranted.  
 - Keyword and competitor gap review.  
-- Core Web Vitals sample.
+- Core Web Vitals sample.  
+- Prompt sample on money and brand queries in the chat products your customers use.
 
 **Yearly**
 - Full technical audit.  
@@ -4880,11 +5282,11 @@ This book is a working loop, not a list of tricks. Search engines crawl pages, d
 
 If you only remember the shape of the work, remember this order:
 
-1. **Make the site eligible** — crawl, index, canonicals, mobile, speed, HTTPS.  
-2. **Choose the queries you can win** — intent, location, and pages that deserve to rank.  
-3. **Put the answer on the page** — titles, content, internal links, media, structured data.  
-4. **Earn trust off the page** — relevant links, mentions, reviews, and consistent citations.  
-5. **Measure and maintain** — [Search Console](https://search.google.com/search-console), analytics, conversions, and a backlog you actually ship.
+1. **Make the site eligible** — crawl, index, canonicals, mobile, speed, HTTPS, and the search crawlers for the answer engines you care about.  
+2. **Choose the queries you can win** — intent, location, and pages that deserve to rank or be cited.  
+3. **Put the answer on the page** — titles, extractable answers, internal links, media, structured data.  
+4. **Earn trust off the page** — relevant links, authentic mentions, reviews, and consistent citations.  
+5. **Measure and maintain** — [Search Console](https://search.google.com/search-console) (including generative AI impressions), analytics, conversions, a small chatbot citation log, and a backlog you actually ship.
 
 Everything else in these chapters is detail on that loop.
 
@@ -4928,6 +5330,12 @@ Do not try to implement every heading in one quarter. Pick the path that matches
 - Use a crawler on a schedule, but validate “errors” against Google’s documentation and the live page.  
 - Give developers reproducible tickets (URL, current behavior, expected behavior).
 
+#### If customers ask chatbots before they click
+- Confirm search crawlers for those products are allowed, then skip training-bot debates until eligibility works.  
+- Put a stand-alone answer under the question your customers actually type.  
+- Check the [Generative AI performance report](https://support.google.com/webmasters/answer/16984139) and a small prompt log before you buy a GEO tool.  
+- Details live in AI Answers and Generative Discovery; do not start a second playbook.
+
 ### Principles That Survive Algorithm Updates
 Tactics expire. These do not:
 
@@ -4935,8 +5343,9 @@ Tactics expire. These do not:
 2. **Trust is accumulated.** Reviews, citations, authorship on YMYL topics, and links from real related sites compound. Spam does not.  
 3. **Technical health is permission to compete.** You cannot rank what Google cannot crawl, render, or serve quickly on a phone.  
 4. **Intent beats volume.** A lower-volume query that matches the business will outperform a high-volume query you cannot satisfy.  
-5. **Measurement is part of the work.** If you cannot see queries, landings, and conversions, you are guessing.  
-6. **Consistency beats intensity.** A half-day each week on the backlog beats a yearly emergency audit.
+5. **Measurement is part of the work.** If you cannot see queries, landings, conversions, and (where it exists) generative impressions, you are guessing.  
+6. **Consistency beats intensity.** A half-day each week on the backlog beats a yearly emergency audit.  
+7. **New surfaces still need the same site.** AI Overviews and chatbots retrieve or remember pages that deserve to be found. They do not replace crawl, intent, or trust.
 
 When a core update moves your traffic, return to these principles before you buy a new tool or rewrite the whole site. Diagnose: tracking, outages, seasonality, cannibalization, then quality on the URLs that actually lost.
 
@@ -4946,7 +5355,7 @@ A short exclusion list will save more time than another chapter of tactics:
 - **Guaranteed rankings, PBNs, and purchased link packages.** They fail in public, often on a delay.  
 - **Vanity metrics as KPIs.** Domain Authority, raw keyword counts, and “traffic” with no conversion story do not justify the work.  
 - **Doorway pages and spun location copy.** They are easy to generate and easy for search engines to ignore.  
-- **Chasing every SERP feature and every new acronym** before the fundamentals work. New surfaces still need crawlable pages and clear answers.  
+- **Chasing every SERP feature and every new acronym** before the fundamentals work. GEO, AEO, AIO, LLMO, and the next label still need crawlable pages and clear answers. Decode them in AI Answers and Generative Discovery; do not buy a new stack for the vowels.  
 - **AI-generated bulk that repeats the results page.** Drafts are fine; unedited, unexperienced pages are a risk, especially on topics that affect health, money, or safety.  
 - **Treating SEO and paid search as rivals.** Use paid data to learn; use organic pages to keep the demand you already paid to discover.
 
@@ -4960,12 +5369,12 @@ Indexation, robots, sitemap, HTTPS, Core Web Vitals sample, analytics, [Search C
 Titles, H1s, intros, internal links, and obvious UX fixes on the URLs that should generate leads or sales. Local businesses: complete [Google Business Profile](https://www.google.com/business/) in the same week.
 
 **Week 3 — Demand you already have**  
-[Search Console](https://search.google.com/search-console) queries with impressions and weak CTR or weak pages. Refresh or create only what the data already asked for.
+[Search Console](https://search.google.com/search-console) queries with impressions and weak CTR or weak pages. Refresh or create only what the data already asked for. Open the Generative AI performance report if it has data. Prompt [ChatGPT](https://chatgpt.com/) and [Perplexity](https://www.perplexity.ai/) with two money queries and your brand name; write down whether you were cited.
 
 **Week 4 — Trust and cadence**  
-Citation or link cleanup if needed, review responses if local, a simple monthly report, and a backlog for the next 90 days.
+Citation or link cleanup if needed, review responses if local, a simple monthly report (classic search plus any AI-answer notes), and a backlog for the next 90 days.
 
-At the end of the month you should be able to say: what is indexed, which pages matter, whether organic visits convert, and what you will do next. That is a complete starting position.
+At the end of the month you should be able to say: what is indexed, which pages matter, whether organic visits convert, whether generated answers mention you, and what you will do next. That is a complete starting position.
 
 ### Final Word
 Search will keep changing—results layouts, ranking systems, devices, and how people phrase a need. The durable skill is not predicting the next interface. It is running a site that deserves to be found: honest about who you are, fast enough to use, specific enough to answer, and measured well enough to improve.
@@ -4976,7 +5385,7 @@ That is the whole craft this book set out to teach. Use it on a real URL. Then k
 
 ### Summary: Conclusion: Search Engine Optimization Course
 
-We recapped the working loop, folded continued learning into a maintenance habit, and gave you a 30-day plan plus paths by site type. You should leave with a real URL to work on this week. Next, use Additional Resources and Reading Materials when you need a primary doc or a tool.
+We recapped the working loop (including generated answers), folded continued learning into a maintenance habit, and gave you a 30-day plan plus paths by site type. You should leave with a real URL to work on this week. Next, use Additional Resources and Reading Materials when you need a primary doc or a tool.
 
 ## Additional Resources and Reading Materials
 
@@ -5021,6 +5430,24 @@ Start with Google’s free tools, then add a crawler and one competitive suite i
 - Heatmaps and session tools ([Hotjar](https://www.hotjar.com/), [Microsoft Clarity](https://clarity.microsoft.com/)) to explain conversion problems on landing pages.  
 - Copy scrapers and plagiarism checkers when auditing uniqueness (as covered in On-Page SEO).
 
+#### AI Answer Engines, Crawlers, and Official Docs
+Start with Google, then add the crawler docs for the chat products your customers use.
+
+**Google Search (AI Overviews, AI Mode)**
+- [Optimizing for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)  
+- [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)  
+- [Generative AI performance report](https://support.google.com/webmasters/answer/16984139) and the [Search Central announcement](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports)  
+- [Google-Extended](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) (Gemini apps / Vertex; not a Search ranking control)  
+- [Evaluating third-party SEO advice](https://developers.google.com/search/docs/fundamentals/third-party-seo) (includes AEO/GEO vendor claims)  
+- [Agent-friendly websites](https://web.dev/articles/ai-agent-site-ux)
+
+**Other answer engines (search vs training bots)**
+- [OpenAI crawlers](https://developers.openai.com/api/docs/bots) ([ChatGPT](https://chatgpt.com/): OAI-SearchBot vs GPTBot)  
+- [Perplexity crawlers](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) ([Perplexity](https://www.perplexity.ai/))  
+- [Anthropic crawlers](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) ([Claude](https://claude.ai/))  
+- [Bing Webmaster Tools](https://www.bing.com/webmasters) for [Bing](https://www.bing.com/) / [Microsoft Copilot](https://copilot.microsoft.com/)  
+- Optional [`llms.txt`](https://llmstxt.org/) for systems that consume it — Google Search ignores it
+
 ### Further Reading and Industry Publications
 Prefer primary Google documentation, then a small set of news outlets and practitioner blogs. You do not need to read everything.
 
@@ -5055,4 +5482,4 @@ Treat no individual as an algorithm oracle. Use their work to form questions, th
 
 ### Summary: Additional Resources and Reading Materials
 
-We listed primary Google documentation, crawlers, research tools, publications, and communities. Use Search Central first when a blog post and Google disagree, then come back to the working loop on a real site.
+We listed primary Google documentation (including generative AI features), crawlers for chat products, research tools, publications, and communities. Use Search Central first when a blog post and Google disagree, then come back to the working loop on a real site.
