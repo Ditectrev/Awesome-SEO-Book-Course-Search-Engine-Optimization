@@ -133,7 +133,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [The User-Focused Evolution of SEO](#the-user-focused-evolution-of-seo)
     - [The Shift from Keyword Stuffing to High-Quality Content](#the-shift-from-keyword-stuffing-to-high-quality-content)
     - [The Integration of AI and Machine Learning in SEO](#the-integration-of-ai-and-machine-learning-in-seo)
-    - [How Mobile Optimization Became Critical](#how-mobile-optimization-became-critical)
     - [The Growing Importance of User Experience (UX) in Rankings](#the-growing-importance-of-user-experience-ux-in-rankings)
     - [Conclusion](#conclusion)
   - [Core Principles of SEO](#core-principles-of-seo)
@@ -152,23 +151,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Best Practices for Integrating UX Design with SEO Strategies](#best-practices-for-integrating-ux-design-with-seo-strategies)
     - [Conclusion](#conclusion-2)
     - [SEO vs. SEM (Search Engine Marketing)](#seo-vs-sem-search-engine-marketing)
-    - [Core Differences Between SEO and SEM](#core-differences-between-seo-and-sem)
     - [Strategies for Budget Allocation Between SEO and SEM](#strategies-for-budget-allocation-between-seo-and-sem)
-    - [Short-Term and Long-Term Benefits of SEO vs. SEM](#short-term-and-long-term-benefits-of-seo-vs-sem)
     - [Measuring the Impact of SEO vs. PPC on Business Goals](#measuring-the-impact-of-seo-vs-ppc-on-business-goals)
     - [Conclusion](#conclusion-3)
   - [Summary: Introduction to SEO](#summary-introduction-to-seo)
 - [Search Engine Basics](#search-engine-basics)
   - [Understanding Search Engines](#understanding-search-engines)
-    - [The Process of Crawling, Indexing, and Ranking](#the-process-of-crawling-indexing-and-ranking)
-    - [How Search Engines Discover and Index Content](#how-search-engines-discover-and-index-content)
-    - [Importance of XML Sitemaps and Optimization](#importance-of-xml-sitemaps-and-optimization)
-    - [Role and Configuration of Robots.txt Files](#role-and-configuration-of-robotstxt-files)
-    - [Common Issues with Crawling and How to Fix Them](#common-issues-with-crawling-and-how-to-fix-them)
-    - [Understanding Crawl Budget and Prioritization Strategies](#understanding-crawl-budget-and-prioritization-strategies)
     - [How Search Algorithms Work](#how-search-algorithms-work)
     - [The Fundamentals of Relevance, Authority, and Quality in Search](#the-fundamentals-of-relevance-authority-and-quality-in-search)
-    - [Overview of Algorithm Updates and Their Impact on SEO](#overview-of-algorithm-updates-and-their-impact-on-seo)
     - [Algorithmic Bias and Search Result Neutrality](#algorithmic-bias-and-search-result-neutrality)
     - [Recognizing and Recovering from Algorithm Penalties](#recognizing-and-recovering-from-algorithm-penalties)
   - [Keyword Research Fundamentals](#keyword-research-fundamentals)
@@ -187,15 +177,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Best Practices for Free vs. Paid Keyword Research Tools](#best-practices-for-free-vs-paid-keyword-research-tools)
     - [Integrating Search Console Data for Enhanced Keyword Discovery](#integrating-search-console-data-for-enhanced-keyword-discovery)
   - [Search Engine Algorithms](#search-engine-algorithms)
-    - [The Evolution of Google’s Algorithm Updates](#the-evolution-of-googles-algorithm-updates)
-    - [Detailed Analysis of Panda, Penguin, Hummingbird, RankBrain, and BERT](#detailed-analysis-of-panda-penguin-hummingbird-rankbrain-and-bert)
-    - [The Impact of Mobile-First Indexing on Rankings](#the-impact-of-mobile-first-indexing-on-rankings)
     - [Insights into the Fred and Medic Updates](#insights-into-the-fred-and-medic-updates)
-    - [Building Resilient SEO Strategies Against Algorithm Changes](#building-resilient-seo-strategies-against-algorithm-changes)
-    - [The Role of AI in Search Algorithms](#the-role-of-ai-in-search-algorithms)
-    - [How RankBrain Adjusts to User Behavior and Search Queries](#how-rankbrain-adjusts-to-user-behavior-and-search-queries)
-    - [Optimizing Content for BERT and NLP-Driven Search](#optimizing-content-for-bert-and-nlp-driven-search)
-    - [Practical Tips for Structuring Content for AI-Enhanced Search](#practical-tips-for-structuring-content-for-ai-enhanced-search)
     - [Insights from Other Search Engines](#insights-from-other-search-engines)
     - [Bing’s Approach to Search and SEO Implications](#bings-approach-to-search-and-seo-implications)
     - [Key Differences Between Google, Yahoo, and Other Search Engines](#key-differences-between-google-yahoo-and-other-search-engines)
@@ -215,7 +197,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Integrating Keywords Seamlessly](#integrating-keywords-seamlessly)
     - [Avoiding Over-Optimization and Keyword Stuffing](#avoiding-over-optimization-and-keyword-stuffing)
     - [LSI Keywords and Their Impact on SEO](#lsi-keywords-and-their-impact-on-seo)
-    - [Optimizing for Voice Search Using Conversational Keywords](#optimizing-for-voice-search-using-conversational-keywords)
     - [The Role of Synonyms and Keyword Variants in Modern SEO](#the-role-of-synonyms-and-keyword-variants-in-modern-seo)
   - [HTML Elements for SEO](#html-elements-for-seo)
     - [Crafting Effective Title Tags and Meta Descriptions](#crafting-effective-title-tags-and-meta-descriptions)
@@ -285,10 +266,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Tools for Tracking Brand Mentions and Public Perception](#tools-for-tracking-brand-mentions-and-public-perception)
     - [The Importance of Responding to Mentions and Building Trust](#the-importance-of-responding-to-mentions-and-building-trust)
     - [Key Takeaways](#key-takeaways)
-    - [Best Practices for Managing Online Reviews and Citations](#best-practices-for-managing-online-reviews-and-citations)
-    - [Responding Effectively to Negative Feedback](#responding-effectively-to-negative-feedback)
-    - [Encouraging and Managing Positive User Reviews](#encouraging-and-managing-positive-user-reviews)
-    - [Local Citations and Their Role in Local SEO Authority](#local-citations-and-their-role-in-local-seo-authority)
   - [Summary: Off-Page SEO](#summary-off-page-seo)
 - [Technical SEO](#technical-seo)
   - [Advanced Techniques for Technical SEO](#advanced-techniques-for-technical-seo)
@@ -312,16 +289,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Additional Considerations](#additional-considerations)
   - [Advanced Schema Markup Implementation](#advanced-schema-markup-implementation)
     - [Using Schema to Create Rich Snippets and Knowledge Panels](#using-schema-to-create-rich-snippets-and-knowledge-panels)
-    - [How to Implement FAQ, How-To, Review, and Product Markup](#how-to-implement-faq-how-to-review-and-product-markup)
     - [The Differences Between JSON-LD, Microdata, and RDFa](#the-differences-between-json-ld-microdata-and-rdfa)
-    - [Practical Guides for JSON-LD Implementation](#practical-guides-for-json-ld-implementation)
     - [Step-by-Step Examples for Common Markup Types](#step-by-step-examples-for-common-markup-types)
     - [Debugging and Validating Structured Data with Google’s Tools](#debugging-and-validating-structured-data-with-googles-tools)
     - [Conclusion](#conclusion-5)
   - [SEO for Mobile and Voice Search Optimization](#seo-for-mobile-and-voice-search-optimization)
-    - [Preparing for Mobile-First Indexing](#preparing-for-mobile-first-indexing)
-    - [Ensuring Your Website is Mobile-Friendly](#ensuring-your-website-is-mobile-friendly)
-    - [Responsive Design and Mobile SEO Best Practices](#responsive-design-and-mobile-seo-best-practices)
     - [Optimizing for Voice Search](#optimizing-for-voice-search)
     - [The Role of Long-Tail and Conversational Keywords](#the-role-of-long-tail-and-conversational-keywords)
     - [Structuring Content to Answer Voice Search Queries](#structuring-content-to-answer-voice-search-queries)
@@ -533,13 +505,13 @@ Search crawlers are automated programs that scan the web to discover and analyze
 
 - **Documentation Reference:** [Managing crawl budget](https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget)
 
-**Crawl budget** is how many URLs a crawler will fetch on your site in a given window. Large or messy sites waste it on duplicates, parameters, and thin pages. The how-to (robots.txt, sitemaps, error types, and what to prioritize) is in [Technical SEO](#technical-seo).
+**Crawl budget** is how many URLs a crawler will fetch on your site in a given window. Large or messy sites waste it on duplicates, parameters, and thin pages.
 
 #### How to Help Crawlers
 
 - **Documentation Reference:** [Google Search Central documentation](https://developers.google.com/search)
 
-Three habits help crawlers find the right pages: a current XML sitemap, clear internal links, and one URL per piece of content. Implementation, examples, and crawl-error fixes are in [The Role of Robots.txt and Sitemap Optimization](#the-role-of-robotstxt-and-sitemap-optimization).
+Three habits help crawlers find the right pages: a current XML sitemap, clear internal links, and one URL per piece of content.
 
 #### Indexing Process Overview
 Once a page is crawled, it is added to the search engine's index—a massive database of web pages. Here’s how indexing works:
@@ -612,7 +584,7 @@ Search engines are constantly evolving, and regular updates are essential to mai
 #### Organic vs. Paid Search Results
 Search Engine Optimization (SEO) and Pay-Per-Click (PPC) advertising are two primary strategies for driving traffic to a website. While both aim to improve visibility on search engine results pages (SERPs), they differ significantly in their approach, cost, and long-term impact. Below is a detailed comparison of organic and paid search results, along with their benefits, misconceptions, and real-world applications.
 
-**Search Engine Marketing (SEM)** is the paid half of that pair. This book teaches SEO. We will not teach you to run ads. When you later see [SEO vs. SEM (Search Engine Marketing)](#seo-vs-sem-search-engine-marketing), it only covers budget split and attribution—not a second ads course.
+**Search Engine Marketing (SEM)** is the paid half of that pair. This book teaches SEO. We will not teach you to run ads.
 
 #### Differences Between Organic and Paid Results
 **Organic Search Results**
@@ -823,7 +795,7 @@ Search engines, particularly Google, have undergone numerous algorithm updates o
   - Reinforced the need for mobile-first design and optimization.
   
 #### The Introduction and Impact of Core Web Vitals
-Google’s **2021 page-experience update** made Core Web Vitals a ranking input. Names, targets, and the how-to (LCP, INP, CLS, plus PageSpeed / Lighthouse) live in [Core Web Vitals: LCP, INP, CLS Explained](#core-web-vitals-lcp-inp-cls-explained). Do not memorize thresholds here.
+Google’s **2021 page-experience update** made Core Web Vitals a ranking input (Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift).
   
 #### How to Respond When an Algorithm Update Hits
 1. **Adaptability:** Algorithm updates force websites to adapt to new ranking factors; diagnose before rewriting everything.
@@ -880,9 +852,6 @@ Implications for SEO:
 - Focus on **natural, conversational content**.  
 - Optimize for **user questions** rather than rigid keywords.  
 - Leverage AI tools for **content insights**, but avoid over-reliance on automation.
-
-#### How Mobile Optimization Became Critical
-By 2018 Google used **mobile-first indexing**: the mobile HTML is the primary version for ranking. The how-to (responsive design, viewport, testing in Search Console and Lighthouse, AMP as optional) is in [Mobile Optimization Strategies](#mobile-optimization-strategies). This History section is the date, not a second mobile course.  
 
 #### The Growing Importance of User Experience (UX) in Rankings
 UX signals are now critical ranking factors, as search engines aim to reward sites that keep users engaged. Key elements include:  
@@ -1051,7 +1020,7 @@ User intent falls into three main categories:
    - Improve CTR with compelling meta titles and descriptions.
 
 #### How Page Experience and Core Web Vitals Influence SEO
-Core Web Vitals thresholds and the speed how-to are in [Core Web Vitals: LCP, INP, CLS Explained](#core-web-vitals-lcp-inp-cls-explained). Page experience is bigger than those three metrics: HTTPS, mobile-friendly layout, safe browsing (no malware), and avoiding intrusive interstitials. Treat CWV as the measurable slice; treat the rest as trust and usability.
+Page experience is bigger than speed metrics: HTTPS, mobile-friendly layout, safe browsing (no malware), and avoiding intrusive interstitials. Treat those as trust and usability, not a second Core Web Vitals class.
 
 #### Best Practices for Integrating UX Design with SEO Strategies
 1. **Simplify Navigation**  
@@ -1073,10 +1042,7 @@ Core Web Vitals thresholds and the speed how-to are in [Core Web Vitals: LCP, IN
 Content and UX are inseparable from modern SEO. By creating valuable content, aligning it with intent, and optimizing technical and design elements, you can enhance rankings and user satisfaction simultaneously. 
 
 #### SEO vs. SEM (Search Engine Marketing)
-Organic vs paid is already taught in [Organic vs. Paid Search Results](#organic-vs-paid-search-results). SEM is the paid half. This book does not teach you to run ads. What is new here is how to split budget and how to credit both channels when a conversion touches both.
-
-#### Core Differences Between SEO and SEM
-Same contrast you already have: SEO is unpaid and slow to compound; SEM (PPC) is paid and stops when the budget stops. Use [Differences Between Organic and Paid Results](#differences-between-organic-and-paid-results) as the definition. Do not re-learn cost, time-to-results, or sustainability here.
+SEM is the paid half of search visibility. This book does not teach you to run ads. What follows is how to split budget and how to credit both channels when a conversion touches both.
 
 #### Strategies for Budget Allocation Between SEO and SEM
 1. **Startups and launches:** a common starting split is about **60% SEM / 40% SEO** so you can buy learning while organic pages are still thin.
@@ -1086,16 +1052,13 @@ Same contrast you already have: SEO is unpaid and slow to compound; SEM (PPC) is
 
 These percentages are a planning heuristic, not a rule. Change them when paid CPA or organic lead quality says so.
 
-#### Short-Term and Long-Term Benefits of SEO vs. SEM
-Covered in [Benefits of Organic Search for Long-Term Growth](#benefits-of-organic-search-for-long-term-growth) and [Comparative ROI of SEO and PPC Campaigns](#comparative-roi-of-seo-and-ppc-campaigns). Short version: SEM buys the next click; SEO buys the next year.
-
 #### Measuring the Impact of SEO vs. PPC on Business Goals
-**Multi-touch attribution** is the unique point. A person may click a PPC ad, leave, then convert from an organic page. Last-click PPC reports will over-credit ads; last-click organic reports will over-credit SEO. Credit both touches when both happened, and judge each channel on the conversions it uniquely created plus the ones it assisted.
+**Multi-touch attribution** is the point. A person may click a PPC ad, leave, then convert from an organic page. Last-click PPC reports will over-credit ads; last-click organic reports will over-credit SEO. Credit both touches when both happened, and judge each channel on the conversions it uniquely created plus the ones it assisted.
 
-Measure SEO in [Search Console](https://search.google.com/search-console) and analytics (later in SEO Analytics and Performance Tracking). Measure SEM in [Google Ads](https://ads.google.com/). Do not treat those dashboards as the same dataset.
+Measure SEO in [Search Console](https://search.google.com/search-console) and analytics. Measure SEM in [Google Ads](https://ads.google.com/). Those dashboards are not the same dataset.
 
 #### Conclusion
-Keep the blended habit from [How Blended SEO and PPC Work Together](#how-blended-seo-and-ppc-work-together). Use the budget split and attribution notes above; skip a second ads syllabus.
+Use both channels when they help the goal. The budget split and attribution notes above are the SEM lesson in this book.
 
 ### Summary: Introduction to SEO
 
@@ -1105,33 +1068,7 @@ We covered what Search Engine Optimization (SEO) is, how search engines crawl, i
 
 
 ### Understanding Search Engines
-You already have the vocabulary from [How Search Engines Work](#how-search-engines-work): crawlers follow links, the index stores pages, ranking orders them. This chapter does not teach that loop again. Keyword research and how engines differ come next. The robots.txt, sitemap, crawl-error, and crawl-budget how-to is in [Technical SEO](#technical-seo).
-
-#### The Process of Crawling, Indexing, and Ranking
-- **Documentation Reference:** [How Google Search Works](https://developers.google.com/search/docs/fundamentals/how-search-works)
-
-Same three steps as the Introduction. Skip the re-definition. When a URL is missing from search, diagnose crawl vs index vs rank in [Troubleshooting Crawl Errors in Search Console](#troubleshooting-crawl-errors-in-search-console).
-
-#### How Search Engines Discover and Index Content
-Crawlers discover URLs from links, sitemaps, and prior crawls. Only indexed URLs can rank. Discovery and indexation controls (robots.txt, sitemaps, canonicals, `noindex`) are in [The Role of Robots.txt and Sitemap Optimization](#the-role-of-robotstxt-and-sitemap-optimization) and [Canonicalization and Dealing with Duplicate Content](#canonicalization-and-dealing-with-duplicate-content).
-
-#### Importance of XML Sitemaps and Optimization
-
-- **Documentation Reference:** [Sitemaps overview](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview)
-
-Do not learn sitemap syntax here. Build, split, and submit sitemaps in [Creating and Submitting Dynamic XML Sitemaps](#creating-and-submitting-dynamic-xml-sitemaps).
-
-#### Role and Configuration of Robots.txt Files
-
-- **Documentation Reference:** [Intro to robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
-
-`robots.txt` lives at the site root and tells crawlers what they may fetch. Directives, a worked example, and the usual mistakes (blocking CSS/JS, typo `Disallow`, disallowing `/`) are in [Writing Effective Robots.txt Files and Avoiding Common Mistakes](#writing-effective-robotstxt-files-and-avoiding-common-mistakes). Chat-product bots are a later, separate decision in [robots.txt Decisions Without Panic](#robotstxt-decisions-without-panic).
-
-#### Common Issues with Crawling and How to Fix Them
-The error types (blocked by robots.txt, slow crawl, duplicates, 404s, 5xx) and the Search Console workflow are in [Troubleshooting Crawl Errors in Search Console](#troubleshooting-crawl-errors-in-search-console). Use that section instead of a second checklist.
-
-#### Understanding Crawl Budget and Prioritization Strategies
-Crawl budget is defined in [Crawl Budget](#crawl-budget). How to spend it (speed, drop thin URLs, internal links to money pages) is in [Improving Crawl Efficiency and Page Discoverability](#improving-crawl-efficiency-and-page-discoverability).
+Search engines score pages on relevance, authority, and quality. Keyword research and how other engines differ come after that.
 
 #### How Search Algorithms Work
 #### The Fundamentals of Relevance, Authority, and Quality in Search
@@ -1152,11 +1089,6 @@ Engagement metrics and content usefulness influence rankings:
 - Low bounce rates and high dwell time  
 - Mobile-friendliness and Core Web Vitals  
 - Original research or unique insights
-
-#### Overview of Algorithm Updates and Their Impact on SEO
-Named updates (Panda, Penguin, Hummingbird, Mobilegeddon, RankBrain, BERT, Core Web Vitals) are the History timeline: [Panda, Penguin, and Hummingbird: A Closer Look](#panda-penguin-and-hummingbird-a-closer-look). Do not re-learn years and nicknames here.
-
-What this chapter adds is how engines score pages **today**: [The Fundamentals of Relevance, Authority, and Quality in Search](#the-fundamentals-of-relevance-authority-and-quality-in-search). When traffic drops, use [Dealing with Algorithm Changes](#dealing-with-algorithm-changes)—not a second history class.
 
 #### Algorithmic Bias and Search Result Neutrality
 **Sources of Bias**
@@ -1517,14 +1449,7 @@ Long-tail keywords are highly specific phrases (4+ words) with lower search volu
    - Adjust hreflang implementations  
 
 ### Search Engine Algorithms
-#### The Evolution of Google’s Algorithm Updates
-The named timeline (Panda through Core Web Vitals, plus RankBrain and BERT) is in [History and Evolution of SEO](#history-and-evolution-of-seo). This section does not repeat those nicknames. What is unique here: **Fred** and **Medic**, then other engines.
-
-#### Detailed Analysis of Panda, Penguin, Hummingbird, RankBrain, and BERT
-Already covered in [Panda, Penguin, and Hummingbird: A Closer Look](#panda-penguin-and-hummingbird-a-closer-look) and [The Integration of AI and Machine Learning in SEO](#the-integration-of-ai-and-machine-learning-in-seo). Skip this list. Write for intent in [On-Page SEO](#on-page-seo); debug a drop in [Dealing with Algorithm Changes](#dealing-with-algorithm-changes).
-
-#### The Impact of Mobile-First Indexing on Rankings
-The 2018 date is in [Mobilegeddon and Mobile-First Indexing Explained](#mobilegeddon-and-mobile-first-indexing-explained). The how-to (responsive HTML, viewport, Search Console / Lighthouse, AMP optional) is [Mobile Optimization Strategies](#mobile-optimization-strategies). Do not run a second mobile course here.
+Fred (2017) and Medic (2018) are the named updates that are not in the History timeline.
 
 #### Insights into the Fred and Medic Updates
 **Fred Update (2017)**
@@ -1547,21 +1472,6 @@ The 2018 date is in [Mobilegeddon and Mobile-First Indexing Explained](#mobilege
 1. Enhanced author credentials  
 2. Improved content depth  
 3. Removal of questionable monetization
-
-#### Building Resilient SEO Strategies Against Algorithm Changes
-Do not build a second crisis playbook here. Diagnose a drop in [Dealing with Algorithm Changes](#dealing-with-algorithm-changes). History already said: diagnose before rewriting. Fred and Medic (above) are the unique named updates in this chapter.
-
-#### The Role of AI in Search Algorithms
-Ranking AI (RankBrain, BERT, MUM, neural matching) is in [The Integration of AI and Machine Learning in SEO](#the-integration-of-ai-and-machine-learning-in-seo). Generated answers (chatbots, AI Overviews) are a later chapter, [AI Answers and Generative Discovery](#ai-answers-and-generative-discovery)—same job, different clothes, not a second ranking-AI class.
-
-#### How RankBrain Adjusts to User Behavior and Search Queries
-RankBrain is already in History. Write in natural language and match intent ([On-Page SEO](#on-page-seo)). There is no separate RankBrain checklist.
-
-#### Optimizing Content for BERT and NLP-Driven Search
-BERT is already in History. Same writing habit: complete sentences, related questions, no stuffing. Schema examples are in [Implementing JSON-LD for Different Schema Types (FAQ, How-To, Product)](#implementing-json-ld-for-different-schema-types-faq-how-to-product).
-
-#### Practical Tips for Structuring Content for AI-Enhanced Search
-Headings, snippets, and readable pages are [On-Page SEO](#on-page-seo). Voice is [Optimizing for Voice Search](#optimizing-for-voice-search). Skip this third copy of H1–H6 and mobile tips.
 
 #### Insights from Other Search Engines
 #### Bing’s Approach to Search and SEO Implications
@@ -1796,9 +1706,6 @@ Latent Semantic Indexing (LSI) keywords help search engines understand context:
 - **Benefits**: Improve content relevance, reduce keyword stuffing risks, and enhance rankings.
 - **How to find them**: Use tools like Google’s "Related Searches," [LSIGraph](https://lsigraph.com/), or [SEMrush](https://www.semrush.com/).
 - **Implementation**: Integrate LSI keywords naturally into headers, body text, and meta descriptions.
-
-#### Optimizing for Voice Search Using Conversational Keywords
-The voice how-to is later, in [Optimizing for Voice Search](#optimizing-for-voice-search) (Technical SEO): spoken vs typed queries, FAQ/how-to patterns, and a ~30–40 word spoken answer. Here, write naturally and put the question in a heading when that question is the point of the page.
 
 #### The Role of Synonyms and Keyword Variants in Modern SEO
 Using synonyms and variations improves content quality and SEO:
@@ -2697,39 +2604,27 @@ Engaging with brand mentions fosters trust and loyalty:
 - Use tools to track sentiment and respond promptly.
 - Active engagement builds trust and strengthens brand loyalty.
 
-#### Best Practices for Managing Online Reviews and Citations
-Reviews, NAP consistency, and directory citations are Local SEO. Off-Page here stays **unlinked brand mentions** and turning those mentions into links ([How Brand Mentions Influence SEO](#how-brand-mentions-influence-seo)). The listing how-to is [Local Citations and Directory Listings](#local-citations-and-directory-listings) and [Setting Up and Verifying a Google Business Profile](#setting-up-and-verifying-a-google-business-profile).
-
-#### Responding Effectively to Negative Feedback
-Reply on the platform where the review lives (GBP, [Yelp](https://www.yelp.com/), industry sites). Keep it short, specific, and offline when the fix needs a ticket. Templates and cadence are in Local SEO, not a second reputation course.
-
-#### Encouraging and Managing Positive User Reviews
-Ask after a real visit or completed job, and send a direct review link. Do not pay for reviews. The GBP-centered workflow is in Local SEO.
-
-#### Local Citations and Their Role in Local SEO Authority
-A citation is your name, address, and phone (NAP) on another site. Treat Off-Page citations as **proof the web already believes you**. Build, clean, and audit them in [Local Citations and Directory Listings](#local-citations-and-directory-listings)—do not start a second NAP course here.
-
 ### Summary: Off-Page SEO
 
-We covered earning relevant links, using social platforms as distribution, and turning unlinked mentions into links. Reviews, NAP, and citations are Local SEO next after Technical SEO. You should treat off-page work as proof that the rest of the web trusts you. Next, we will make sure crawlers can actually use the site in Technical SEO.
+We covered earning relevant links, using social platforms as distribution, and turning unlinked mentions into links. You should treat off-page work as proof that the rest of the web trusts you. Next, we will make sure crawlers can actually use the site in Technical SEO.
 
 ## Technical SEO
 Technical SEO refers to the process of optimizing a website's infrastructure to improve its visibility in search engine results. It ensures that search engines can crawl, index, and render your site efficiently.
 
 ### Advanced Techniques for Technical SEO
 1. **Website Performance Optimization**
-- **Core Web Vitals**: Names and targets are in [Core Web Vitals: LCP, INP, CLS Explained](#core-web-vitals-lcp-inp-cls-explained). Here, treat speed as infrastructure: TTFB, CDN, minify and defer non-critical CSS/JS.
+- Treat speed as infrastructure: TTFB, CDN, minify and defer non-critical CSS/JS.
 - **Server Response Time**: Reduce TTFB by using a CDN, optimizing databases, and upgrading hosting.
 
 2. **Structured Data and Schema Markup**
-- FAQ, How-To, and Product JSON-LD already live in [Implementing JSON-LD for Different Schema Types (FAQ, How-To, Product)](#implementing-json-ld-for-different-schema-types-faq-how-to-product). This chapter adds formats, extra types, and debug.
+- This chapter adds markup formats, extra types (Review, Article, LocalBusiness, Breadcrumb), and debug.
 
 3. **Canonicalization and URL Structure**
 - Use `rel="canonical"` to avoid duplicate content issues.
 - Ensure clean, descriptive URLs with hyphens (e.g., `/technical-seo-guide`).
 
 4. **Mobile-First Indexing**
-- How-to is [Mobile Optimization Strategies](#mobile-optimization-strategies). Test in [Google Search Console](https://search.google.com/search-console) and [Lighthouse](https://developer.chrome.com/docs/lighthouse)—the standalone Mobile-Friendly Test is retired.
+- Test in [Google Search Console](https://search.google.com/search-console) and [Lighthouse](https://developer.chrome.com/docs/lighthouse). The standalone Mobile-Friendly Test is retired.
 
 5. **HTTPS and Security**
 - Migrate to HTTPS to avoid "Not Secure" warnings.
@@ -3040,30 +2935,7 @@ Bounce rate measures single-page sessions. Improved navigation can encourage dee
 
 ### Advanced Schema Markup Implementation
 #### Using Schema to Create Rich Snippets and Knowledge Panels
-FAQ, How-To, and Product JSON-LD already live in [Implementing JSON-LD for Different Schema Types (FAQ, How-To, Product)](#implementing-json-ld-for-different-schema-types-faq-how-to-product). Do not paste a second copy here.
-
-This section adds **formats**, **types not shown yet**, and **debug**. Knowledge panels are entity results (business, person, organization). You do not opt in with a special schema type; you earn them with consistent name, official site, and the same profiles the rest of the web uses.
-
-#### How to Implement FAQ, How-To, Review, and Product Markup
-Copy FAQ, How-To, and Product from On-Page SEO. The unique extra here is **Review**, and only when the stars are visible on the page:
-
-```json
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "Product",
-    "name": "Coffee Maker"
-  },
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5"
-  }
-}
-</script>
-```
+Knowledge panels are entity results (business, person, organization). You do not opt in with a special schema type; you earn them with a consistent name, official site, and the same profiles the rest of the web uses.
 
 #### The Differences Between JSON-LD, Microdata, and RDFa
 **JSON-LD**
@@ -3082,13 +2954,29 @@ Copy FAQ, How-To, and Product from On-Page SEO. The unique extra here is **Revie
 
 Default to JSON-LD unless a CMS forces Microdata.
 
-#### Practical Guides for JSON-LD Implementation
-Syntax is already in the On-Page examples: `@context`, `@type`, then properties that match visible content. Put the script on the page you describe. No extra “AI schema.”
-
 #### Step-by-Step Examples for Common Markup Types
-Skip a second Product block. Types not shown in On-Page:
+Types beyond FAQ, How-To, and Product:
 
-1. **Article Markup** — blog posts and news.
+1. **Review Markup** — only when the stars are visible on the page.
+```json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "Coffee Maker"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  }
+}
+</script>
+```
+
+2. **Article Markup** — blog posts and news.
 ```json
 {
   "@context": "https://schema.org",
@@ -3103,7 +2991,7 @@ Skip a second Product block. Types not shown in On-Page:
 }
 ```
 
-2. **Local Business Markup** — brick-and-mortar NAP that matches the page and GBP.
+3. **Local Business Markup** — brick-and-mortar NAP that matches the page and GBP.
 ```json
 {
   "@context": "https://schema.org",
@@ -3120,7 +3008,7 @@ Skip a second Product block. Types not shown in On-Page:
 }
 ```
 
-3. **Breadcrumb Markup** — site hierarchy.
+4. **Breadcrumb Markup** — site hierarchy.
 ```json
 {
   "@context": "https://schema.org",
@@ -3143,7 +3031,7 @@ Skip a second Product block. Types not shown in On-Page:
 ```
 
 #### Debugging and Validating Structured Data with Google’s Tools
-Same tools as On-Page: [Rich Results Test](https://search.google.com/test/rich-results), [schema.org validator](https://validator.schema.org/), and [Search Console](https://search.google.com/search-console) enhancement reports. Validate Review, Article, LocalBusiness, and Breadcrumb here in addition to FAQ / How-To / Product.
+Use the [Rich Results Test](https://search.google.com/test/rich-results), [schema.org validator](https://validator.schema.org/), and [Search Console](https://search.google.com/search-console) enhancement reports.
 
 Markup must match visible content. Missing required properties, broken JSON commas, and schema that describes a review that is not on the page are the usual failures.
 
@@ -3151,16 +3039,7 @@ Markup must match visible content. Missing required properties, broken JSON comm
 Use JSON-LD, match the page, validate, then stop. Rich results and knowledge panels are eligibility, not a ranking cheat.
 
 ### SEO for Mobile and Voice Search Optimization
-#### Preparing for Mobile-First Indexing
-Mobile-first indexing (2018) is in [Mobilegeddon and Mobile-First Indexing Explained](#mobilegeddon-and-mobile-first-indexing-explained). The how-to is [Mobile Optimization Strategies](#mobile-optimization-strategies): same content on mobile and desktop, responsive HTML, crawlable CSS/JS, test in [Search Console](https://search.google.com/search-console) and [Lighthouse](https://developer.chrome.com/docs/lighthouse). The standalone [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) is **retired**—do not use it.
-
-What is new in this section is **voice**.
-
-#### Ensuring Your Website is Mobile-Friendly
-Viewport, tap targets, readable type, and no intrusive pop-ups are already in [Ensuring Compliance with Mobile-First Indexing](#ensuring-compliance-with-mobile-first-indexing) and [Responsive Design Best Practices for SEO](#responsive-design-best-practices-for-seo). Do not run that checklist again.
-
-#### Responsive Design and Mobile SEO Best Practices
-Fluid grids, `max-width: 100%` images, and AMP-as-optional are On-Page. Local “near me” intent is [Local SEO](#local-seo). Spoken queries are next.
+Spoken search is the extra work in this chapter.
 
 #### Optimizing for Voice Search
 Voice search grew rapidly with smart speakers (Amazon Echo, Google Home) and voice assistants (Siri, Google Assistant, Alexa). Not every search is spoken, but a large share of mobile and local queries are conversational. Users tend to phrase spoken queries as full questions, which makes traditional short-tail keyword strategies incomplete on their own.
@@ -3305,7 +3184,7 @@ Google uses three main factors to rank local businesses:
 3. **Prominence**: The business's reputation, reflected in reviews, citations, and backlinks.
 
 #### Key Differences Between Local SEO and General SEO
-Local SEO uses the same on-page, off-page, and technical loop. The extra surface is a **map pack** (and Maps) for a place, not a second syllabus.
+Local SEO uses the same on-page, off-page, and technical loop. The extra surface is a **map pack** (and Maps) for a place.
 
 | | Local pack / Maps | General SEO (ten blue links) |
 | --- | --- | --- |
@@ -3313,9 +3192,8 @@ Local SEO uses the same on-page, off-page, and technical loop. The extra surface
 | **Main asset** | [Google Business Profile](https://www.google.com/business/) plus NAP | The website |
 | **Ranking mix** | Proximity, relevance, prominence (reviews, citations, links) | Relevance, links, content, technical eligibility |
 | **Queries** | City, neighborhood, “near me,” service-area | National or unlocated informational / commercial |
-| **Where the how-to lives** | This chapter (GBP, location pages, citations) | Earlier chapters — do not re-learn them here |
 
-GBP setup, location pages, and citation cleanup follow. Voice “near me” is [Optimizing for Voice Search](#optimizing-for-voice-search), not a Local trend list.
+GBP setup, location pages, and citation cleanup follow.
 
 #### Setting Up and Verifying a [Google Business Profile](https://www.google.com/business/)
 
