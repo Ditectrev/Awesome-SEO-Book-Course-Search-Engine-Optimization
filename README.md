@@ -378,8 +378,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What is SEO?
 
-- **Documentation Reference:** [Google Search Central SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)
-
 **Search Engine Optimization (SEO)** is the process of optimizing a website to improve its visibility and ranking on search engine results pages (SERPs). By using a combination of technical, on-page, and off-page strategies, SEO helps websites attract organic (non-paid) traffic from search engines like Google, Bing, and Yahoo. The same job now also covers generated answers: [Google AI Overviews](https://developers.google.com/search/docs/appearance/ai-features), [AI Mode](https://developers.google.com/search/docs/appearance/ai-features), and chat products such as [ChatGPT](https://chatgpt.com/) or [Perplexity](https://www.perplexity.ai/). We treat those surfaces as SEO in different clothes, not as a second discipline. The acronyms (GEO, AEO, AIO, LLMO, and the rest) are decoded in AI Answers and Generative Discovery, after Local SEO. The ultimate goal of SEO is to ensure that a website ranks highly for relevant search queries, driving more visitors and potential customers to the site. Whether you run a business, work in marketing, or publish content, you need SEO for succeeding in the digital world.
 
 SEO is a critical component of digital marketing because it directly impacts a website's ability to attract visitors, generate leads, and drive conversions. Below are the key reasons why SEO is essential:
@@ -417,8 +415,6 @@ SEO is a critical component of digital marketing because it directly impacts a w
 
 ### How Search Engines Work
 
-- **Documentation Reference:** [How Google Search Works](https://developers.google.com/search/docs/fundamentals/how-search-works)
-
 Search engines are complex systems designed to help users find relevant information quickly. They operate through a series of interconnected processes that involve **crawling**, **indexing**, and **ranking**. Understanding how search engines work is essential for optimizing your website and improving its visibility on search engine results pages (SERPs).
 
 ### Overview of Search Engine Mechanisms
@@ -433,10 +429,8 @@ Search engines like Google, Bing, and Yahoo send crawlers out to scan the web an
   - **Scan Content:** They analyze the text, images, videos, and other elements on a page.
   - **Follow Links:** Crawlers use internal and external links to discover additional pages.
 - **Crawl Budget**
-  - **Documentation Reference:** [Managing crawl budget](https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget)
   - **Crawl budget** is how many URLs a crawler will fetch on your site in a given window. Large or messy sites waste it on duplicates, parameters, and thin pages.
 - **How to Help Crawlers**
-  - **Documentation Reference:** [Google Search Central documentation](https://developers.google.com/search)
   - Three habits help crawlers find the right pages: a current XML sitemap, clear internal links, and one URL per piece of content.
 
 ### Indexing Process Overview
@@ -1041,7 +1035,6 @@ Engagement metrics and content usefulness influence rankings:
 - Compliance with Webmaster Guidelines  
 
 ### Keyword Research Fundamentals
-- **Documentation Reference:** [Google Search Central documentation](https://developers.google.com/search)
 
 #### What Are Keywords and Their Types?
 Keywords are words or phrases that users enter into search engines when looking for information, products, or services. They serve as the foundation of SEO and content strategy, helping websites connect with their target audience. Keywords can be categorized based on length, intent, and competitiveness.
@@ -1621,8 +1614,6 @@ Integrating keywords naturally into content is crucial for SEO. Here’s how to 
 ### HTML Elements for SEO
 #### Crafting Effective Title Tags and Meta Descriptions
 
-- **Documentation Reference:** [Control your title links](https://developers.google.com/search/docs/appearance/title-link)
-
 Title tags and meta descriptions are critical HTML elements that influence both search engine rankings and user click-through rates (CTR). They appear in search engine results pages (SERPs) and provide a preview of your content.
 **Key Functions**:
 - **Title Tag**: Defines the clickable headline in SERPs (limited to ~60 characters).
@@ -1660,7 +1651,6 @@ Title tags and meta descriptions are critical HTML elements that influence both 
 
 #### Image Optimization Techniques
 - **Writing Effective Alt Text and Image Descriptions**
-  - **Documentation Reference:** [Google Images SEO](https://developers.google.com/search/docs/appearance/google-images)
 
   1. **Purpose of Alt Text**: 
      - Provides accessibility for screen readers.
@@ -1732,8 +1722,6 @@ Title tags and meta descriptions are critical HTML elements that influence both 
      - If using stock images, customize them (e.g., cropping, filters).
 
 #### Building Internal Link Structures
-
-- **Documentation Reference:** [Site hierarchy and URL structure](https://developers.google.com/search/docs/crawling-indexing/url-structure)
 
 Internal linking refers to connecting pages within the same website using hyperlinks. A well-structured internal linking strategy improves SEO, enhances user experience, and helps search engines crawl and index content efficiently.
 
@@ -1833,8 +1821,6 @@ Internal linking refers to connecting pages within the same website using hyperl
 #### Mobile Optimization Strategies
 #### Ensuring Compliance with Mobile-First Indexing
 
-- **Documentation Reference:** [Mobile-first indexing](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing)
-
 1. **Understand Mobile-First Indexing**  
    - Google primarily uses the mobile version of a site for ranking and indexing.  
    - Desktop content should match mobile content to avoid discrepancies.  
@@ -1855,8 +1841,6 @@ Internal linking refers to connecting pages within the same website using hyperl
    - Ensure CSS, JavaScript, and images are crawlable by Googlebot. 
 
 #### Implementing and Optimizing AMP (Accelerated Mobile Pages)
-
-- **Documentation Reference:** [AMP on Google Search](https://developers.google.com/search/docs/appearance/accelerated-mobile-pages)
 
 1. **What is AMP?**  
    - A Google-originated framework for ultra-fast mobile pages using stripped-down AMP HTML.  
@@ -1936,8 +1920,6 @@ Page load speed is a critical factor for user experience, SEO rankings, and conv
 
 #### Core Web Vitals: LCP, INP, CLS Explained
 
-- **Documentation Reference:** [Page experience and Core Web Vitals](https://developers.google.com/search/docs/appearance/page-experience)
-
 **Largest Contentful Paint (LCP)**
 - Measures loading performance by tracking the time it takes for the largest content element (e.g., hero image, heading) to render.
 - Target: LCP should occur within **2.5 seconds** of page load.
@@ -1997,8 +1979,6 @@ By implementing these strategies and regularly auditing performance, you can sig
 
 #### Using Structured Data and Schema Markup
 #### The Importance of Structured Data for SEO
-
-- **Documentation Reference:** [Intro to structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)
 
 Structured data is a standardized format for providing information about a webpage and classifying its content. It helps search engines understand the context of your content, leading to enhanced search results (rich snippets, knowledge panels, etc.). Key benefits include:
 
@@ -2608,8 +2588,6 @@ Sitemap: https://example.com/sitemap.xml
 
 #### Canonicalization and Dealing with Duplicate Content
 
-- **Documentation Reference:** [Canonicalization](https://developers.google.com/search/docs/crawling-indexing/canonicalization)
-
 Canonicalization refers to the process of selecting the best URL when multiple URLs point to the same or very similar content. It helps search engines understand which version of a URL is the "master" copy, preventing duplicate content issues.
 
 **Why Canonicalization Matters**
@@ -2619,8 +2597,6 @@ Canonicalization refers to the process of selecting the best URL when multiple U
 - Ensures correct attribution of backlinks and social shares  
 
 #### Setting Up Canonical Tags Correctly
-
-- **Documentation Reference:** [How to specify a canonical URL](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
 
 **When to Use Canonical Tags**
 - When you have multiple URLs with identical or nearly identical content  
@@ -3099,8 +3075,6 @@ GBP setup, location pages, and citation cleanup follow.
 
 #### Setting Up and Verifying a [Google Business Profile](https://www.google.com/business/)
 
-- **Documentation Reference:** [Google Business Profile on Search](https://developers.google.com/search/docs/appearance/google-business-profile)
-
 [Google Business Profile](https://www.google.com/business/) (GBP), formerly Google My Business, is the listing that powers your presence in Google Search and [Google Maps](https://www.google.com/maps). For most local businesses, it is the single most important local SEO asset. An unverified or incomplete profile is easy for competitors to outrank, even if your website is strong.
 
 #### Step-by-Step Guide to Verifying Your Business Listing
@@ -3495,8 +3469,6 @@ We covered Google Business Profile, NAP consistency, location pages, and reviews
 
 People still ask a question and want a trustworthy answer. What changed is the costume: the answer may appear in a classic blue-link list, in a Google AI Overview, in [ChatGPT](https://chatgpt.com/), [Gemini](https://gemini.google.com/), [Microsoft Copilot](https://copilot.microsoft.com/), [Claude](https://claude.ai/), [Perplexity](https://www.perplexity.ai/), or in a voice or agent flow. This chapter decodes the acronyms (GEO, AEO, AIO, LLMO, and the rest), then teaches the shared practice. SEO stays the foundation. Local SEO was one extra surface on the same job; AI answers are another.
 
-- **Documentation Reference:** [Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
-
 ### Same Job, Different Clothes
 
 You already know the job from earlier chapters: help a person (and the machines that fetch pages for that person) discover you, understand you, trust you, and choose you. Generative answers did not replace that loop. They changed where the first answer is assembled.
@@ -3508,8 +3480,6 @@ Google’s own guidance is blunt: from Search’s perspective, optimizing for ge
 The same logic applies outside Google. Chat products that search the live web still need a public URL they can fetch. Models that cite sources still prefer pages that state a clear answer, name the entity, and show why the source is qualified. None of that is a new craft with a new syllabus. It is on-page, off-page, and technical SEO aimed at a generated paragraph instead of (or in addition to) a ten-blue-link list.
 
 Treat vendor “GEO packages” the way you already treat vendor “SEO packages”: useful if they help you ship the work; ignore them if they sell a secret file, a guaranteed citation, or a ranking factor Google has said it does not use.
-
-- **Documentation Reference:** [Google Search’s guidance on third-party SEO tools and advice](https://developers.google.com/search/docs/fundamentals/third-party-seo)
 
 #### Where People Find You Now
 
@@ -3566,8 +3536,6 @@ Cousins you will also hear: **AIEO** (AI Engine Optimization), **AISO** (AI Sear
 
 **Agent Engine Optimization (AgEO)** is the newest costume: AI agents that browse, compare, fill forms, and complete tasks. The extra work is making key journeys machine-operable (semantic HTML, labeled inputs, stable layout, accessible names). Google documents this as agent-friendly sites, not as a replacement for SEO. We cover the practical subset later in this chapter.
 
-- **Documentation Reference:** [Build agent-friendly websites](https://web.dev/articles/ai-agent-site-ux)
-
 #### Acronyms We Skip (and Why)
 
 **App Store Optimization (ASO)** ranks apps inside [Apple App Store](https://www.apple.com/app-store/) and [Google Play](https://play.google.com/store), not the web index. Different marketplace, different levers (title/subtitle keywords, screenshots, ratings, release cadence). It is not another SERP costume, so it is not this book.
@@ -3592,8 +3560,6 @@ If the page cannot be crawled, indexed, and shown with a snippet, Google cannot 
 
 Eligibility is necessary and never sufficient. Google still decides whether an AI feature triggers and which sources support a given response.
 
-- **Documentation Reference:** [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
-
 #### Write Extractable, Citable Answers
 
 Models and snippet systems lift passages that can stand alone. That is the old featured-snippet habit, not a new file format.
@@ -3617,8 +3583,6 @@ Scope that changes the clock: permit waits, pan and drain upgrades, and moving t
 ```
 
 That block is useful to a person, easy to cite, and honest about limits. It is not “chunking for AI.” Google says you do not need to shatter articles into micro-pages for models to understand them. Write the length the reader needs.
-
-- **Documentation Reference:** [Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 
 #### Prove Experience, Entities, and Trust
 
@@ -3671,8 +3635,6 @@ For local and product queries, stale hours or missing Merchant Center feeds will
 
 This is the Google-shaped costume of the same job. Other chat products are next.
 
-- **Documentation Reference:** [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
-
 #### How Google Grounds Generative Answers
 
 AI Overviews appear when Google decides a generated gist adds something beyond classic results. They often do not trigger. AI Mode is the more conversational, multi-step surface for comparisons and layered questions.
@@ -3702,8 +3664,6 @@ Google published a myth list. For Google Search, you can skip:
 If a GEO vendor’s first deliverable is one of those five, you are buying a file, not visibility.
 
 #### Measuring Generative AI in Search Console
-
-- **Documentation Reference:** [Generative AI performance report (Search)](https://support.google.com/webmasters/answer/16984139)
 
 [Search Console](https://search.google.com/search-console) counts AI Overviews and AI Mode in the overall Web performance report. Google also ships a dedicated **Generative AI performance report** (Search and Discover variants) that groups impressions by page, country, device, and date. Use it to see which URLs appear as supporting links.
 
@@ -3742,8 +3702,6 @@ Most major labs now split the user agents:
 - **User-initiated fetchers** (ChatGPT-User, Claude-User, Perplexity-User) retrieve a page because a person asked. Several vendors say `robots.txt` may not apply the same way, because a user triggered the fetch.
 
 Google Search does not use GPTBot. Allowing or denying GPTBot does not change AI Overviews. [Google-Extended](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) does not change Search ranking. Keep those controls mentally on a different shelf from Googlebot.
-
-- **Documentation Reference:** [Google’s common crawlers (including Google-Extended)](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers)
 
 #### robots.txt Decisions Without Panic
 
@@ -3804,8 +3762,6 @@ Agents act. They read the DOM, the accessibility tree, and sometimes a screensho
 - Do not stuff ARIA to “game” agents. ARIA is for meaning. Access control belongs in `robots.txt`, auth, and bot management.
 
 Emerging commerce protocols (for example Universal Commerce Protocol) may let Search agents transact more directly. Watch Google’s agent-friendly guidance; do not pause your money-page SEO to implement every draft protocol on day one.
-
-- **Documentation Reference:** [Build agent-friendly websites](https://web.dev/articles/ai-agent-site-ux)
 
 ### Summary: AI Answers and Generative Discovery
 
@@ -3878,8 +3834,6 @@ If you do not define a conversion, SEO cannot be credited or improved.
 
 #### Measuring Citations and AI Answer Visibility
 Classic organic sessions miss the queries where an AI Overview or a chatbot answered first. Add a short visibility track next to rankings — not instead of conversions.
-
-- **Documentation Reference:** [Generative AI performance report (Search)](https://support.google.com/webmasters/answer/16984139)
 
 **Google Search (AI Overviews and AI Mode)**
 - Use the [Search Console](https://search.google.com/search-console) **Generative AI performance report** for impressions, pages, countries, and devices. AI features also roll into the overall Web performance report.
@@ -3976,8 +3930,6 @@ Whether in [GA4](https://analytics.google.com/), [Looker Studio](https://lookers
 - Keep a written definition of each KPI so reports stay comparable.
 
 #### Leveraging [Search Console](https://search.google.com/search-console) for Indexing and Performance Insights
-
-- **Documentation Reference:** [Search Console help](https://support.google.com/webmasters)
 
 **Indexing**
 - **Pages** report: reasons URLs are not indexed (discovered–currently not indexed, crawled–currently not indexed, excluded by `noindex`, duplicate, 404).  
