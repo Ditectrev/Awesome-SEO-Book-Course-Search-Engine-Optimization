@@ -165,17 +165,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Crafting Effective Title Tags and Meta Descriptions](#crafting-effective-title-tags-and-meta-descriptions)
     - [Image Optimization Techniques](#image-optimization-techniques)
     - [Building Internal Link Structures](#building-internal-link-structures)
-  - [Technical On-Page SEO](#technical-on-page-seo)
-    - [Optimizing URL Structures](#optimizing-url-structures)
+    - [Technical On-Page SEO](#technical-on-page-seo)
     - [Subdomains vs. Subdirectories: What Works Best for SEO](#subdomains-vs-subdirectories-what-works-best-for-seo)
     - [The Role of URL Keywords and Length in SEO](#the-role-of-url-keywords-and-length-in-seo)
     - [Mobile Optimization Strategies](#mobile-optimization-strategies)
-    - [Ensuring Compliance with Mobile-First Indexing](#ensuring-compliance-with-mobile-first-indexing)
     - [Implementing and Optimizing AMP (Accelerated Mobile Pages)](#implementing-and-optimizing-amp-accelerated-mobile-pages)
     - [Responsive Design Best Practices for SEO](#responsive-design-best-practices-for-seo)
     - [Tools for Mobile Usability Testing](#tools-for-mobile-usability-testing)
     - [Enhancing Page Load Speed](#enhancing-page-load-speed)
-    - [Core Web Vitals: LCP, INP, CLS Explained](#core-web-vitals-lcp-inp-cls-explained)
     - [Advanced Image Optimization Techniques](#advanced-image-optimization-techniques)
     - [The Benefits of Using Lazy Loading and CDNs](#the-benefits-of-using-lazy-loading-and-cdns)
     - [Tools for Analyzing and Improving Page Speed (Google PageSpeed Insights, Lighthouse)](#tools-for-analyzing-and-improving-page-speed-google-pagespeed-insights-lighthouse)
@@ -1727,35 +1724,7 @@ Internal linking refers to connecting pages within the same website using hyperl
   - **Balance Deep and Shallow Links**: Mix links to top-level and deep-content pages for even distribution.
 
 ### Technical On-Page SEO
-Technical on-page work is the URL, the mobile layout, the speed, and the structured data on the page itself. You ship it with the document.
-
-#### Optimizing URL Structures
-URLs are a ranking and usability signal. Keep them short, readable, and stable.
-
-1. **Keep URLs Short and Descriptive**  
-   - Shorter URLs are easier for users and search engines to understand.  
-   - Avoid unnecessary parameters or lengthy strings.  
-
-2. **Use Hyphens to Separate Words**  
-   - Hyphens (`-`) improve readability (e.g., `example.com/seo-friendly-url`).  
-   - Avoid underscores, spaces, or special characters.  
-
-3. **Include Target Keywords**  
-   - Place relevant keywords near the beginning of the URL.  
-   - Avoid keyword stuffing—keep it natural.  
-
-4. **Use Lowercase Letters**  
-   - URLs are case-sensitive; lowercase avoids duplicate content issues.  
-
-5. **Avoid Dynamic Parameters When Possible**  
-   - Static URLs are preferred (e.g., `example.com/category/page` instead of `example.com/page?id=123`).  
-
-6. **Remove Stop Words When Possible**  
-   - Words like "and," "the," or "of" can often be omitted without losing meaning.  
-
-7. **Ensure URLs Are Human-Readable**  
-   - URLs should give users a clear idea of the page content.  
-
+Technical on-page work is the URL, the mobile layout, the speed, and the structured data on the page itself. You ship it with the document. Optimize URL structures so they stay short, readable, and stable: hyphens not underscores, lowercase, keywords near the start, and no extra parameters or stop words.
 
 #### Subdomains vs. Subdirectories: What Works Best for SEO
 **Subdomains (e.g., `blog.example.com`)**
@@ -1795,28 +1764,7 @@ URLs are a ranking and usability signal. Keep them short, readable, and stable.
 - Avoid unnecessary complexity to maximize crawlability and usability.  
 
 #### Mobile Optimization Strategies
-Google indexes the mobile page first. If the phone experience is missing content, blocked resources, or unusable tap targets, the desktop site will not save you.
-
-#### Ensuring Compliance with Mobile-First Indexing
-
-1. **Understand Mobile-First Indexing**  
-   - Google primarily uses the mobile version of a site for ranking and indexing.  
-   - Desktop content should match mobile content to avoid discrepancies.  
-
-2. **Use a Responsive Design**  
-   - Ensures the same HTML is served across devices, with CSS adjusting layout.  
-   - Avoids separate mobile URLs (m-dot sites) unless necessary.  
-
-3. **Check Mobile Usability in [Google Search Console](https://search.google.com/search-console)**  
-   - Identify issues like small text, unplayable content, or viewport problems.  
-   - Fix errors flagged under the "Mobile Usability" report.  
-
-4. **Ensure Fast Loading Speed**  
-   - Optimize images, leverage lazy loading, and minimize JavaScript.  
-   - Use tools like [Google PageSpeed Insights](https://pagespeed.web.dev/) for recommendations.  
-
-5. **Avoid Blocking Resources**  
-   - Ensure CSS, JavaScript, and images are crawlable by Googlebot. 
+Google indexes the mobile page first. If the phone experience is missing content, blocked resources, or unusable tap targets, the desktop site will not save you. Ensuring compliance with mobile-first indexing means matching desktop and mobile content, using responsive design (same HTML, no m-dot unless necessary), checking Mobile Usability in [Google Search Console](https://search.google.com/search-console), keeping pages fast, and not blocking CSS, JavaScript, or images from Googlebot.
 
 #### Implementing and Optimizing AMP (Accelerated Mobile Pages)
 
@@ -1894,22 +1842,7 @@ Google indexes the mobile page first. If the phone experience is missing content
 
 
 #### Enhancing Page Load Speed
-Page load speed is a critical factor for user experience, SEO rankings, and conversion rates. Faster-loading pages reduce bounce rates and improve engagement. Below are key strategies to enhance page load speed.
-
-#### Core Web Vitals: LCP, INP, CLS Explained
-
-**Largest Contentful Paint (LCP)**
-- Measures loading performance by tracking the time it takes for the largest content element (e.g., hero image, heading) to render.
-- Target: LCP should occur within **2.5 seconds** of page load.
-
-**Interaction to Next Paint (INP)**
-- The current Core Web Vitals interactivity metric (it replaced First Input Delay).
-- Measures how quickly the page responds to clicks, taps, and key presses throughout the visit, not only the first input.
-- Target: INP should be **less than 200 milliseconds**.
-
-**Cumulative Layout Shift (CLS)**
-- Measures visual stability by tracking unexpected layout shifts during page load.
-- Target: CLS score should be **less than 0.1**.
+Page load speed is a critical factor for user experience, SEO rankings, and conversion rates. Faster-loading pages reduce bounce rates and improve engagement. Core Web Vitals explain that in three metrics: Largest Contentful Paint (LCP, largest element visible within 2.5 seconds), Interaction to Next Paint (INP, under 200 milliseconds; it replaced First Input Delay), and Cumulative Layout Shift (CLS, unexpected shifts under 0.1).
 
 #### Advanced Image Optimization Techniques
 1. **Use Modern Formats**:  
