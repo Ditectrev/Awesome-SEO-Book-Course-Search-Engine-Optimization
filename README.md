@@ -325,18 +325,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Importance of Consistent SEO Strategy and Adaptation](#importance-of-consistent-seo-strategy-and-adaptation)
     - [The Role of Continuous Learning in SEO](#the-role-of-continuous-learning-in-seo)
   - [Future of SEO](#future-of-seo)
-    - [Emerging Trends: AI, Voice Search, and Visual Search](#emerging-trends-ai-voice-search-and-visual-search)
-    - [AI in Ranking and Content](#ai-in-ranking-and-content)
-    - [Generative Answers Stay in This Book](#generative-answers-stay-in-this-book)
-    - [SERP Features and Zero-Click Behavior](#serp-features-and-zero-click-behavior)
-    - [Preparing for SEO in a Post-Cookie World](#preparing-for-seo-in-a-post-cookie-world)
-    - [The Growth of Mobile and Local SEO](#the-growth-of-mobile-and-local-seo)
-    - [Adapting to Evolving User Behavior and Search Intent](#adapting-to-evolving-user-behavior-and-search-intent)
   - [Building Your SEO Skillset](#building-your-seo-skillset)
   - [Implementing SEO in Real-World Scenarios](#implementing-seo-in-real-world-scenarios)
-    - [Creating and Managing SEO Campaigns](#creating-and-managing-seo-campaigns)
-    - [Patterns That Recur in Successful Projects](#patterns-that-recur-in-successful-projects)
-    - [Developing an Ongoing SEO Maintenance Plan](#developing-an-ongoing-seo-maintenance-plan)
   - [What “Done” Looks Like in SEO](#what-done-looks-like-in-seo)
   - [How to Use This Book From Where You Are](#how-to-use-this-book-from-where-you-are)
   - [Principles That Survive Algorithm Updates](#principles-that-survive-algorithm-updates)
@@ -4041,63 +4031,11 @@ Search engines update constantly, but the learning habit matters more than any s
 
 ### Future of SEO
 
-The search results page will keep changing. The job remains the same: be the best answer for a real query, on a site machines can crawl and people can trust. AI Overviews, chatbots, and agents are not a sequel to this book — they already have a full chapter (AI Answers and Generative Discovery). The headings below cover remaining trends and the ranking-AI you met earlier, without dumping GEO here as an afterthought.
+The search results page will keep changing. The job remains the same: be the best answer for a real query, on a site machines can crawl and people can trust. AI Overviews, chatbots, and agents already have a full chapter (AI Answers and Generative Discovery). Ranking AI (RankBrain, BERT, neural matching, and related systems discussed earlier) is how engines interpret queries and pages — not a chatbot product name.
 
-#### Emerging Trends: AI, Voice Search, and Visual Search
-- **Voice Search**
-  Voice will remain important for local, mobile, and question-style queries. Structure FAQs, hours, and how-to content so a short spoken answer is easy to extract. Pair this with the voice-search section in Technical SEO and the VEO note in AI Answers and Generative Discovery.
+Voice search stays important for local, mobile, and question-style queries. Structure FAQs, hours, and how-to content so a short spoken answer is easy to extract. Visual search starts from a photo: use descriptive filenames, alt text, captions, original images, and ImageObject or Product markup where it fits.
 
-- **Visual Search**
-  Cameras and image packs help users search from a photo instead of a phrase.
-  - Use descriptive filenames, alt text, captions, and relevant nearby copy.  
-  - Provide original, high-quality images; compress them for speed.  
-  - Add ImageObject or Product markup where it fits.  
-  - Keep product images consistent with what the user will see on the page.
-
-#### AI in Ranking and Content
-Search engines already use machine learning to interpret queries and pages (RankBrain, BERT, neural matching, and related systems discussed earlier). That is ranking AI, not a chatbot product name.
-- Write complete answers in natural language, not isolated keywords.  
-- Cover entities and related questions so the page is clearly about a topic.  
-- Keep human expertise visible on YMYL subjects (authors, sources, experience).  
-- Use AI writing tools, if at all, as drafts and outlines—not as a substitute for accuracy and first-hand knowledge. Thin, generated pages that repeat the SERP are a risk, not a strategy.
-
-#### Generative Answers Stay in This Book
-When someone says GEO, AEO, AIO, or LLMO in a meeting next year, send them to AI Answers and Generative Discovery. The acronym will change. The loop will not: eligibility, a citable answer, proof, and measurement in [Search Console](https://search.google.com/search-console). Do not start a second book for the next vowel-string.
-
-#### SERP Features and Zero-Click Behavior
-More answers appear on the results page (snippets, packs, knowledge panels). Optimize to appear there when it helps the user, and make the click worthwhile when they still need depth, tools, or a transaction.
-
-#### Preparing for SEO in a Post-Cookie World
-Third-party cookies are being restricted across browsers. SEO is already a first-party channel; that advantage grows as paid retargeting gets harder.
-
-**What to Do**
-1. **Own measurement**: [GA4](https://analytics.google.com/) (or another analytics platform) with first-party data, server-side tagging if you need it, and clear conversion events.  
-2. **Earn identifiable relationships**: email, accounts, and loyalty—traffic you can still talk to without ads following users around the web.  
-3. **Respect consent**: cookie banners and privacy policy must match actual tracking.  
-4. **Lean on [Search Console](https://search.google.com/search-console) and first-party CRM** when user-level web tracking is incomplete.  
-5. **Do not depend on last-click paid remarketing** to paper over weak organic landing pages.
-
-SEO, email, and useful content become more valuable when rented audiences get more expensive.
-
-#### The Growth of Mobile and Local SEO
-Most searches in many markets already happen on phones. Mobile-first indexing is the default. Local packs, maps, and “near me” intent continue to capture high-value queries.
-
-- Design for thumbs, speed, and readable type before desktop polish.  
-- Keep GBP, location pages, and citations in lockstep.  
-- Treat maps and the local pack as part of SEO, not as a side project.  
-- Prepare for more on-the-go queries: hours, inventory, parking, wait times, and booking.
-
-#### Adapting to Evolving User Behavior and Search Intent
-Users bounce between search, social, video, and communities. Queries are more conversational, more visual, and often more task-oriented.
-
-**Practical Adaptation**
-- Revisit intent for your money keywords every quarter; the SERP tells you whether Google wants a guide, a product, a local pack, or a video.  
-- Update content when the user’s job-to-be-done changes (pricing, regulations, seasons).  
-- Offer the format the SERP rewards *and* the depth a careful buyer still needs on your site.  
-- Measure engagement and conversions, not rankings alone.  
-- Stay curious about new surfaces, but implement fundamentals first.
-
-The durable advantage is not predicting the next acronym. It is running a site that deserves to be found.
+Write complete answers in natural language, cover entities and related questions, and keep human expertise visible on YMYL subjects. Use AI writing tools, if at all, as drafts and outlines — not as a substitute for accuracy and first-hand knowledge. Thin, generated pages that repeat the SERP are a risk, not a strategy. The durable advantage is not predicting the next acronym. It is running a site that deserves to be found.
 
 
 Reading this book is the map. Skill comes from implementing, measuring, and participating in the craft.
@@ -4127,60 +4065,9 @@ Stack skills in this order: fundamentals, analytics, technical crawling, then a 
   - **After each event**: write three implementation notes for your site. If nothing is actionable, the event was entertainment.
 
 ### Implementing SEO in Real-World Scenarios
-Turn the book into a working loop: run campaigns, write down what happened, and maintain the site so wins do not decay.
+Turn the book into a working loop: run one campaign at a time, write down what happened, and maintain the site so wins do not decay. A campaign is a time-boxed effort with a goal, a page set, and a measurement plan. Fix crawl and index issues before publishing more content, match page type to intent, strengthen one location or product line instead of spreading thin, and report conversions, not only rankings.
 
-#### Creating and Managing SEO Campaigns
-A campaign is a time-boxed effort with a goal, a page set, and a measurement plan.
-
-**Example Campaign Skeleton**
-1. **Goal**: increase qualified organic demo requests by 20% in two quarters.  
-2. **Scope**: three service pages, five supporting articles, technical fixes on those templates.  
-3. **Baseline**: [Search Console](https://search.google.com/search-console) clicks, [GA4](https://analytics.google.com/) key events, current rankings.  
-4. **Workstream**: technical → on-page → content → digital PR / links → reporting.  
-5. **Owners and deadlines**.  
-6. **Review** at 30/60/90 days with a go/no-go on expanding the topic cluster.
-
-Run one campaign well before launching five.
-
-#### Patterns That Recur in Successful Projects
-The same constraints show up across industries. When a campaign works, it is usually because you did these in order:
-
-- Fix crawl and index issues before publishing more content.  
-- Match page type to intent instead of forcing a blog post to rank for a transactional query.  
-- Strengthen one location or product line instead of spreading thin across the whole catalog.  
-- Earn a few relevant links and citations rather than hundreds of junk listings.  
-- Report conversions, not only rankings.
-
-Write down the baseline, the change, and the result for each campaign. That record is how you decide what to repeat, what to stop, and what to ask budget for next.
-
-#### Developing an Ongoing SEO Maintenance Plan
-Maintenance keeps wins from eroding.
-
-**Monthly**
-- [Search Console](https://search.google.com/search-console) performance and coverage.  
-- Generative AI impressions when the report has data.  
-- GBP reviews, hours, and posts (if local).  
-- Rank and conversion snapshot for money pages.  
-- Broken-link and uptime check.
-
-**Quarterly**
-- Content refresh of decaying URLs.  
-- Citation / NAP audit for local businesses.  
-- Backlink review and disavow consideration only if warranted.  
-- Keyword and competitor gap review.  
-- Core Web Vitals sample.  
-- Prompt sample on money and brand queries in the chat products your customers use.
-
-**Yearly**
-- Full technical audit.  
-- Information-architecture review.  
-- Strategy reset against business goals.  
-- Tool and access inventory (who owns what).
-
-**Ownership**
-Assign a named owner for analytics, [Search Console](https://search.google.com/search-console), GBP, CMS, and DNS. SEO fails quietly when the only person with login access leaves.
-
-The maintenance plan is how you keep the work alive. The next chapter closes the book: what to carry forward, what to ignore, and how to start on a real site this week.
+Maintenance keeps those wins from eroding: watch [Search Console](https://search.google.com/search-console) and conversions on money pages, refresh decaying URLs, and keep a named owner for analytics, Search Console, the CMS, and DNS. The next headings close the book: what to carry forward, what to ignore, and how to start on a real site this week.
 
 
 This book is a working loop, not a list of tricks. Search engines crawl pages, decide what they mean, and rank the ones that best help a person complete a job. Your job is to make that match easy: a crawlable site, a clear answer, proof that the business is real, and measurement that shows whether the visit was worth it.
