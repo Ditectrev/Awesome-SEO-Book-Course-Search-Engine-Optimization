@@ -110,8 +110,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [Key Milestones in Search Engine Technology](#key-milestones-in-search-engine-technology)
   - [Transition from Directory Listings to Algorithm-Based Search](#transition-from-directory-listings-to-algorithm-based-search)
   - [Significant Algorithm Updates and Their Impact](#significant-algorithm-updates-and-their-impact)
-  - [Panda, Penguin, and Hummingbird: A Closer Look](#panda-penguin-and-hummingbird-a-closer-look)
-  - [Mobilegeddon and Mobile-First Indexing Explained](#mobilegeddon-and-mobile-first-indexing-explained)
   - [The Introduction and Impact of Core Web Vitals](#the-introduction-and-impact-of-core-web-vitals)
   - [How to Respond When an Algorithm Update Hits](#how-to-respond-when-an-algorithm-update-hits)
   - [How Algorithm Updates Shaped SEO Best Practices](#how-algorithm-updates-shaped-seo-best-practices)
@@ -128,13 +126,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [Content Authority and Relevance in SEO](#content-authority-and-relevance-in-seo)
   - [The Role of Trustworthiness (E-E-A-T) in SEO](#the-role-of-trustworthiness-e-e-a-t-in-seo)
   - [The Role of Content and User Experience](#the-role-of-content-and-user-experience)
-  - [Techniques for Creating High-Quality, Engaging Content](#techniques-for-creating-high-quality-engaging-content)
   - [Aligning Content with User Intent for SEO](#aligning-content-with-user-intent-for-seo)
   - [Key Metrics: Dwell Time, Bounce Rate, and Click-Through Rate (CTR)](#key-metrics-dwell-time-bounce-rate-and-click-through-rate-ctr)
   - [How Page Experience and Core Web Vitals Influence SEO](#how-page-experience-and-core-web-vitals-influence-seo)
-  - [Best Practices for Integrating UX Design with SEO Strategies](#best-practices-for-integrating-ux-design-with-seo-strategies)
   - [SEO vs. SEM (Search Engine Marketing)](#seo-vs-sem-search-engine-marketing)
-  - [Strategies for Budget Allocation Between SEO and SEM](#strategies-for-budget-allocation-between-seo-and-sem)
   - [Measuring the Impact of SEO vs. PPC on Business Goals](#measuring-the-impact-of-seo-vs-ppc-on-business-goals)
   - [Summary: Core Principles of SEO](#summary-core-principles-of-seo)
 - [Search Engine Basics](#search-engine-basics)
@@ -642,7 +637,6 @@ The history of search engines dates back to the early days of the internet, when
 ### Significant Algorithm Updates and Their Impact
 Search engines, particularly Google, have undergone numerous algorithm updates over the years to improve the quality of search results and combat manipulative practices. These updates have significantly shaped the SEO landscape, forcing marketers and website owners to adapt their strategies. Below is a detailed look at some of the most impactful algorithm updates, their implications, and how they have influenced SEO best practices.
 
-### Panda, Penguin, and Hummingbird: A Closer Look
 **Google Panda (2011)**
 - **Purpose:** Targeted low-quality content and thin websites.
 - **Key Features:**
@@ -670,7 +664,6 @@ Search engines, particularly Google, have undergone numerous algorithm updates o
   - Enhanced the relevance of search results.
   - Encouraged the creation of content that answers user queries comprehensively.
 
-### Mobilegeddon and Mobile-First Indexing Explained
 **Mobilegeddon (2015)**
 - **Purpose:** Prioritized mobile-friendly websites in search results.
 - **Key Features:**
@@ -859,7 +852,6 @@ Google’s E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) f
 ### The Role of Content and User Experience
 Content and user experience (UX) are critical factors in SEO. Search engines prioritize websites that deliver valuable content and a seamless user experience, as they align with the goal of satisfying user intent.  
 
-### Techniques for Creating High-Quality, Engaging Content
 1. **Understand Your Audience**  
    - Research demographics, pain points, and preferences.  
    - Use surveys, analytics, and social listening to gather insights.  
@@ -912,28 +904,11 @@ User intent falls into three main categories:
    - Improve CTR with compelling meta titles and descriptions.
 
 ### How Page Experience and Core Web Vitals Influence SEO
-Page experience is bigger than speed metrics: HTTPS, mobile-friendly layout, safe browsing (no malware), and avoiding intrusive interstitials. Treat those as trust and usability, not a second Core Web Vitals class.
-
-### Best Practices for Integrating UX Design with SEO Strategies
-1. **Simplify Navigation**  
-   - Use clear menus, breadcrumbs, and internal links.  
-
-2. **Optimize Readability**  
-   - Short paragraphs, legible fonts, and contrast ratios.  
-
-3. **Improve Page Speed**  
-   - Compress images, leverage browser caching, and minimize JavaScript.  
-
-4. **Design for Accessibility**  
-   - Alt text for images, keyboard navigation, and ARIA labels.  
-
-5. **Test and Iterate**  
-   - Use A/B testing, heatmaps (e.g., [Hotjar](https://www.hotjar.com/)), and user feedback.
+Page experience is bigger than speed metrics: HTTPS, mobile-friendly layout, safe browsing (no malware), and avoiding intrusive interstitials. Treat those as trust and usability, not a second Core Web Vitals class. Integrate UX design with SEO by simplifying navigation (menus, breadcrumbs, internal links), optimizing readability, improving page speed, designing for accessibility, and iterating with tests, heatmaps (e.g., [Hotjar](https://www.hotjar.com/)), and user feedback.
 
 ### SEO vs. SEM (Search Engine Marketing)
 SEM is the paid half of search visibility. This book does not teach you to run ads. What follows is how to split budget and how to credit both channels when a conversion touches both.
 
-### Strategies for Budget Allocation Between SEO and SEM
 1. **Startups and launches:** a common starting split is about **60% SEM / 40% SEO** so you can buy learning while organic pages are still thin.
 2. **Established brands:** closer to **70% SEO / 30% SEM**, using paid for promotions, gaps, and tests.
 3. **Seasonality:** raise SEM in peak weeks; keep SEO funded year-round so you are not renting the same traffic every December.
