@@ -1953,41 +1953,41 @@ JSON-LD (JavaScript Object Notation for Linked Data) is Google’s recommended f
 ```
 
 #### Testing and Debugging Schema Markup with Google’s Tools
-1.**[Rich Results Test](https://search.google.com/test/rich-results) Tool**:
--Enter a URL or code snippet to validate schema markup.
--URL: https://search.google.com/test/rich-results
+1. **[Rich Results Test](https://search.google.com/test/rich-results) Tool**:
+- Enter a URL or code snippet to validate schema markup.
+- URL: https://search.google.com/test/rich-results
 
-2.**[Schema Markup Validator](https://validator.schema.org/)**:
--Checks syntax and adherence to schema.org vocabulary.
--URL: https://validator.schema.org/
+2. **[Schema Markup Validator](https://validator.schema.org/)**:
+- Checks syntax and adherence to schema.org vocabulary.
+- URL: https://validator.schema.org/
 
-3.**[Google Search Console](https://search.google.com/search-console)**:
--Monitor "Enhancements" reports for errors/warnings in indexed pages.
+3. **[Google Search Console](https://search.google.com/search-console)**:
+- Monitor "Enhancements" reports for errors/warnings in indexed pages.
 
 #### Common Schema Markup Errors and How to Fix Them
-1.**Missing Required Fields**:
--Error: Required properties (e.g., name for Product) are omitted.
--Fix: Refer to schema.org documentation for mandatory fields.
+1. **Missing Required Fields**:
+- Error: Required properties (e.g., name for Product) are omitted.
+- Fix: Refer to schema.org documentation for mandatory fields.
 
-2.**Invalid JSON-LD Syntax**:
--Error: Missing commas, brackets, or quotation marks.
--Fix: Use a JSON validator (e.g., [JSONLint](https://jsonlint.com/)).
+2. **Invalid JSON-LD Syntax**:
+- Error: Missing commas, brackets, or quotation marks.
+- Fix: Use a JSON validator (e.g., [JSONLint](https://jsonlint.com/)).
 
-3.**Incorrect Property Values**:
--Error: Using Text instead of URL for image fields.
--Fix: Ensure values match the expected format (e.g., full URLs for images).
+3. **Incorrect Property Values**:
+- Error: Using Text instead of URL for image fields.
+- Fix: Ensure values match the expected format (e.g., full URLs for images).
 
-4.**Markup Not Visible on Page**:
--Error: Structured data doesn’t match visible content.
--Fix: Align markup with the rendered page (e.g., don’t hide prices in code).
+4. **Markup Not Visible on Page**:
+- Error: Structured data doesn’t match visible content.
+- Fix: Align markup with the rendered page (e.g., don’t hide prices in code).
 
-5.**Duplicate Markup**:
--Error: Multiple schema types conflict (e.g., two Product markups).
--Fix: Consolidate or remove redundant markup.
+5. **Duplicate Markup**:
+- Error: Multiple schema types conflict (e.g., two Product markups).
+- Fix: Consolidate or remove redundant markup.
 
 **Pro Tips**:
--Use [Google’s Structured Data Guidelines](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) for updates: https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data
--Prioritize schema types that align with your content (e.g., LocalBusiness for brick-and-mortar stores).
+- Use [Google’s Structured Data Guidelines](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) for updates: https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data
+- Prioritize schema types that align with your content (e.g., LocalBusiness for brick-and-mortar stores).
 
 ### Summary: On-Page SEO
 
@@ -2156,20 +2156,20 @@ Toxic links are backlinks from low-quality, spammy, or manipulative websites tha
 5. **Unnatural Link Velocity**: Sudden spikes in backlinks from dubious sources
  
 #### Tools for Monitoring Backlink Health ([Ahrefs](https://ahrefs.com/), [Moz](https://moz.com/), [SEMrush](https://www.semrush.com/))
-1.**[Ahrefs](https://ahrefs.com/)**
+1. **[Ahrefs](https://ahrefs.com/)**
 - **Backlink Audit Tool**: Identifies potentially harmful links using metrics like "toxic link score."  
 - **Site Explorer**: Review referring domains and filter by low DR (Domain Rating) sites.  
 - **Alerts**: Set up notifications for new toxic links.  
 
-2.**[Moz](https://moz.com/)**
+2. **[Moz](https://moz.com/)**
 - **Link Explorer**: Analyze spam score (1-10+ indicates higher risk).  
 - **Disavow Tool Integration**: Export lists of suspicious links for disavowal.  
 
-3.**[SEMrush](https://www.semrush.com/)**
+3. **[SEMrush](https://www.semrush.com/)**
 - **Backlink Audit Tool**: Flags toxic links based on toxicity score (0-100%).  
 - **Historical Data**: Tracks changes in backlink profile over time.  
 
-4.**[Google Search Console](https://search.google.com/search-console)**
+4. **[Google Search Console](https://search.google.com/search-console)**
 - **Manual Actions Report**: Check for penalties due to bad links.  
 - **Links Report**: Review top linking sites for anomalies.
 
@@ -2525,7 +2525,7 @@ Canonicalization refers to the process of selecting the best URL when multiple U
    <link rel="canonical" href="https://original-domain.com/content/" />
    ```
 
-3.Common mistakes to avoid:
+3. Common mistakes to avoid:
 - Pointing canonicals to 404 pages
 - Creating canonical chains (A→B→C)
 - Using relative instead of absolute URLs
