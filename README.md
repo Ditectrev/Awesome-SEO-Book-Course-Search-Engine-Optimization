@@ -176,7 +176,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Advanced Image Optimization Techniques](#advanced-image-optimization-techniques)
     - [The Benefits of Using Lazy Loading and CDNs](#the-benefits-of-using-lazy-loading-and-cdns)
     - [Tools for Analyzing and Improving Page Speed (Google PageSpeed Insights, Lighthouse)](#tools-for-analyzing-and-improving-page-speed-google-pagespeed-insights-lighthouse)
-    - [Using Structured Data and Schema Markup](#using-structured-data-and-schema-markup)
     - [The Importance of Structured Data for SEO](#the-importance-of-structured-data-for-seo)
     - [Implementing JSON-LD for Different Schema Types (FAQ, How-To, Product)](#implementing-json-ld-for-different-schema-types-faq-how-to-product)
     - [Testing and Debugging Schema Markup with Google’s Tools](#testing-and-debugging-schema-markup-with-googles-tools)
@@ -1724,7 +1723,7 @@ Internal linking refers to connecting pages within the same website using hyperl
   - **Balance Deep and Shallow Links**: Mix links to top-level and deep-content pages for even distribution.
 
 ### Technical On-Page SEO
-Technical on-page work is the URL, the mobile layout, the speed, and the structured data on the page itself. You ship it with the document. Optimize URL structures so they stay short, readable, and stable: hyphens not underscores, lowercase, keywords near the start, and no extra parameters or stop words.
+Technical on-page work is the URL, the mobile layout, the speed, and the structured data on the page itself. You ship it with the document. Optimize URL structures so they stay short, readable, and stable: hyphens not underscores, lowercase, keywords near the start, and no extra parameters or stop words. Structured data does not replace visible content. It spells out what the page already says so search engines can show richer results.
 
 #### Subdomains vs. Subdirectories: What Works Best for SEO
 **Subdomains (e.g., `blog.example.com`)**
@@ -1887,9 +1886,6 @@ Page load speed is a critical factor for user experience, SEO rankings, and conv
 - **Pingdom**: Monitors load times and performance trends over time.
 
 By implementing these strategies and regularly auditing performance, you can significantly enhance page load speed and user experience.
-
-#### Using Structured Data and Schema Markup
-Structured data does not replace visible content. It spells out what the page already says so search engines can show richer results.
 
 #### The Importance of Structured Data for SEO
 
