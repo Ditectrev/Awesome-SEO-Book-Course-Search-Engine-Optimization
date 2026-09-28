@@ -227,13 +227,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Benefits of Flat vs. Deep Site Architecture](#benefits-of-flat-vs-deep-site-architecture)
     - [Improving Crawl Efficiency and Page Discoverability](#improving-crawl-efficiency-and-page-discoverability)
     - [Tools for Analyzing Site Structure (Screaming Frog, Sitebulb)](#tools-for-analyzing-site-structure-screaming-frog-sitebulb)
-    - [Navigation and Breadcrumb Optimization](#navigation-and-breadcrumb-optimization)
     - [Implementing Breadcrumb Navigation for Better UX and SEO](#implementing-breadcrumb-navigation-for-better-ux-and-seo)
     - [Best Practices for Internal Navigation Paths](#best-practices-for-internal-navigation-paths)
     - [Reducing Bounce Rates with Enhanced Navigation Design](#reducing-bounce-rates-with-enhanced-navigation-design)
     - [Additional Considerations](#additional-considerations)
   - [Advanced Schema Markup Implementation](#advanced-schema-markup-implementation)
-    - [Using Schema to Create Rich Snippets and Knowledge Panels](#using-schema-to-create-rich-snippets-and-knowledge-panels)
     - [The Differences Between JSON-LD, Microdata, and RDFa](#the-differences-between-json-ld-microdata-and-rdfa)
     - [Step-by-Step Examples for Common Markup Types](#step-by-step-examples-for-common-markup-types)
     - [Debugging and Validating Structured Data with Google’s Tools](#debugging-and-validating-structured-data-with-googles-tools)
@@ -2588,7 +2586,7 @@ Canonicalization refers to the process of selecting the best URL when multiple U
 4. Having different canonicals across HTTP/HTTPS versions
 
 ### Enhancing Site Architecture and Crawlability
-Site architecture is the graph crawlers and users walk. Shallow, linked, predictable structures get crawled more completely than deep silos with orphan pages.
+Site architecture is the graph crawlers and users walk. Shallow, linked, predictable structures get crawled more completely than deep silos with orphan pages. Navigation tells people where they are and tells crawlers which URLs matter. Breadcrumbs, menus, and contextual links should describe the same hierarchy.
 
 #### Creating SEO-Friendly Site Structures
 A well-organized site structure helps search engines crawl and index pages efficiently. Key principles include:  
@@ -2644,9 +2642,6 @@ A well-organized site structure helps search engines crawl and index pages effic
 - **[Google Search Console](https://search.google.com/search-console)**: Identifies crawl errors and indexing issues.  
 - **[Ahrefs Site Audit](https://ahrefs.com/site-audit)**: Detects SEO problems affecting crawlability.  
 - **[DeepCrawl](https://www.lumar.io/)**: Enterprise-level site structure analysis.  
-
-#### Navigation and Breadcrumb Optimization
-Navigation tells people where they are and tells crawlers which URLs matter. Breadcrumbs, menus, and contextual links should describe the same hierarchy.
 
 #### Implementing Breadcrumb Navigation for Better UX and SEO
 Breadcrumb navigation is a secondary navigation system that shows a user's location in a website hierarchy. It improves both user experience (UX) and search engine optimization (SEO).
@@ -2727,10 +2722,7 @@ Bounce rate measures single-page sessions. Improved navigation can encourage dee
 5. **SEO Audits**: Regularly check for broken links or poor anchor text distribution.
 
 ### Advanced Schema Markup Implementation
-This section is extra schema types, the format choice (JSON-LD vs Microdata vs RDFa), and how you debug what Google actually stored.
-
-#### Using Schema to Create Rich Snippets and Knowledge Panels
-Knowledge panels are entity results (business, person, organization). You do not opt in with a special schema type; you earn them with a consistent name, official site, and the same profiles the rest of the web uses.
+This section is extra schema types, the format choice (JSON-LD vs Microdata vs RDFa), and how you debug what Google actually stored. Knowledge panels are entity results (business, person, organization). You do not opt in with a special schema type; you earn them with a consistent name, official site, and the same profiles the rest of the web uses.
 
 #### The Differences Between JSON-LD, Microdata, and RDFa
 **JSON-LD**
