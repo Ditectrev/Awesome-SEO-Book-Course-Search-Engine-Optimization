@@ -149,7 +149,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Integrating Search Console Data for Enhanced Keyword Discovery](#integrating-search-console-data-for-enhanced-keyword-discovery)
   - [Search Engine Algorithms](#search-engine-algorithms)
     - [Insights into the Fred and Medic Updates](#insights-into-the-fred-and-medic-updates)
-    - [Insights from Other Search Engines](#insights-from-other-search-engines)
     - [Bing’s Approach to Search and SEO Implications](#bings-approach-to-search-and-seo-implications)
     - [Key Differences Between Google, Yahoo, and Other Search Engines](#key-differences-between-google-yahoo-and-other-search-engines)
     - [Emerging Search Engines: DuckDuckGo, Ecosia, and Their Impact on SEO](#emerging-search-engines-duckduckgo-ecosia-and-their-impact-on-seo)
@@ -1338,9 +1337,6 @@ Fred (2017) and Medic (2018) are the named updates that are not in the History t
 1. Enhanced author credentials  
 2. Improved content depth  
 3. Removal of questionable monetization
-
-#### Insights from Other Search Engines
-Google is the default in most markets, but it is not the only ranking system. Bing, Yahoo, and privacy or eco engines weight signals differently enough that the same page can win on one and lose on another.
 
 #### Bing’s Approach to Search and SEO Implications
 Bing, Microsoft's search engine, has distinct algorithms and ranking factors compared to Google. Understanding its approach can help optimize for better visibility.
