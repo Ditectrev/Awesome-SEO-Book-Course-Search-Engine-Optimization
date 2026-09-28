@@ -827,7 +827,9 @@ Google’s E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) f
    - Secure and transparent sites (clear privacy policies, contact info) build trust.
 
 ### The Role of Content and User Experience
-Content and user experience (UX) are critical factors in SEO. Search engines prioritize websites that deliver valuable content and a seamless user experience, as they align with the goal of satisfying user intent.  
+Content and user experience (UX) are critical factors in SEO. Search engines prioritize websites that deliver valuable content and a seamless user experience, as they align with the goal of satisfying user intent.
+
+Techniques for creating high-quality, engaging content.
 
 1. **Understand Your Audience**  
    - Research demographics, pain points, and preferences.  
@@ -885,6 +887,8 @@ Page experience is bigger than speed metrics: HTTPS, mobile-friendly layout, saf
 
 ### SEO vs. SEM (Search Engine Marketing)
 SEM is the paid half of search visibility. This book does not teach you to run ads. What follows is how to split budget and how to credit both channels when a conversion touches both.
+
+Strategies for budget allocation between SEO and SEM.
 
 1. **Startups and launches:** a common starting split is about **60% SEM / 40% SEO** so you can buy learning while organic pages are still thin.
 2. **Established brands:** closer to **70% SEO / 30% SEM**, using paid for promotions, gaps, and tests.
@@ -1317,6 +1321,8 @@ Fred (2017) and Medic (2018) are the named updates that are not in the History t
 3. Removal of questionable monetization
 
 #### Bing’s Approach to Search and SEO Implications
+Google is the default in most markets, but it is not the only ranking system. Bing, Yahoo, and privacy or eco engines weight signals differently enough that the same page can win on one and lose on another.
+
 Bing, Microsoft's search engine, has distinct algorithms and ranking factors compared to Google. Understanding its approach can help optimize for better visibility.
 
 **Key Features of Bing’s Search Algorithm:**
