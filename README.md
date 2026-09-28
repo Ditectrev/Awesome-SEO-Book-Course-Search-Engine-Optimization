@@ -252,7 +252,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Utilizing Geo-Specific Modifiers and Location Keywords](#utilizing-geo-specific-modifiers-and-location-keywords)
     - [Competitive Analysis for Local Search Rankings](#competitive-analysis-for-local-search-rankings)
     - [Leveraging Local Search Trends and Insights](#leveraging-local-search-trends-and-insights)
-    - [Creating and Optimizing Location-Specific Content](#creating-and-optimizing-location-specific-content)
     - [Best Practices for Writing Local Content That Engages Users](#best-practices-for-writing-local-content-that-engages-users)
     - [Incorporating Local Events, News, and Community Involvement](#incorporating-local-events-news-and-community-involvement)
     - [Structuring Landing Pages for Multiple Locations](#structuring-landing-pages-for-multiple-locations)
@@ -3055,7 +3054,7 @@ Match the GBP NAP on your site and mark it up:
 The website and GBP should tell the same story. Conflicting hours, phone numbers, or addresses weaken both.
 
 ### Advanced Local SEO Strategies
-Once the profile is verified and complete, growth comes from better keyword targeting, stronger local content, and pages that match how people search in each market.
+Once the profile is verified and complete, growth comes from better keyword targeting, stronger local content, and pages that match how people search in each market. Location pages and local content should help a person choose you in a specific place. Thin city pages that swap the city name and nothing else rarely rank for long.
 
 #### Conducting Local Keyword Research
 Local keyword research finds the phrases people use when they want a nearby product or service. Volume is often lower than national terms, but conversion intent is usually higher.
@@ -3129,9 +3128,6 @@ Local demand changes with seasons, weather, events, and news. Keyword tools alon
 - Use Google Posts for short-lived offers; use website pages for recurring seasonal demand.  
 - Watch for new “near me” services competitors add and only follow if you actually offer them.  
 - If Insights show many calls but few website visits, improve the listing first. If the reverse is true, improve the location pages and conversion paths.
-
-#### Creating and Optimizing Location-Specific Content
-Location pages and local content should help a person choose you in a specific place. Thin city pages that swap the city name and nothing else rarely rank for long.
 
 #### Best Practices for Writing Local Content That Engages Users
 1. **Write for one place at a time**  
