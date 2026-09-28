@@ -292,7 +292,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [Summary: AI Answers and Generative Discovery](#summary-ai-answers-and-generative-discovery)
 - [SEO Analytics and Performance Tracking](#seo-analytics-and-performance-tracking)
   - [SEO Metrics and Key Performance Indicators (KPIs)](#seo-metrics-and-key-performance-indicators-kpis)
-    - [Measuring Organic Traffic and Conversion Metrics](#measuring-organic-traffic-and-conversion-metrics)
     - [Using Google Analytics to Track Traffic Sources](#using-google-analytics-to-track-traffic-sources)
     - [Defining and Tracking SEO Goals and Conversions](#defining-and-tracking-seo-goals-and-conversions)
     - [Measuring Citations and AI Answer Visibility](#measuring-citations-and-ai-answer-visibility)
@@ -3628,10 +3627,7 @@ We decoded GEO, AEO, AIO, LLMO, SXO, VEO, GIO, and AgEO as costumes of the same 
 SEO without measurement is guesswork. Analytics tells you whether organic search is sending the right people, whether those people convert, and where technical or content issues are blocking growth. It also tells you whether you are cited in generated answers even when the click never arrives. This chapter covers the metrics that matter, the tools used to collect them, and how to audit and report on a regular cadence.
 
 ### SEO Metrics and Key Performance Indicators (KPIs)
-Pick KPIs from business goals, not from whatever a rank tracker highlights in red. A publisher may care about engaged sessions and newsletter signups. A local clinic may care about calls and booked appointments. Rankings are a leading indicator; revenue, leads, and qualified traffic are the outcomes.
-
-#### Measuring Organic Traffic and Conversion Metrics
-Organic traffic is the number of sessions or users who arrive from unpaid search. It is necessary but not sufficient. Traffic that bounces from the wrong query, or that never completes a goal, is not a win.
+Pick KPIs from business goals, not from whatever a rank tracker highlights in red. A publisher may care about engaged sessions and newsletter signups. A local clinic may care about calls and booked appointments. Rankings are a leading indicator; revenue, leads, and qualified traffic are the outcomes. Organic traffic is the number of sessions or users who arrive from unpaid search. It is necessary but not sufficient. Traffic that bounces from the wrong query, or that never completes a goal, is not a win.
 
 #### Using [Google Analytics](https://analytics.google.com/) to Track Traffic Sources
 [GA4](https://analytics.google.com/) is the system of record for on-site behavior. [Search Console](https://search.google.com/search-console) remains the system of record for queries. You need both.
