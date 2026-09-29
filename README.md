@@ -127,7 +127,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [The Role of Content and User Experience](#the-role-of-content-and-user-experience)
   - [Aligning Content with User Intent for SEO](#aligning-content-with-user-intent-for-seo)
   - [Key Metrics: Dwell Time, Bounce Rate, and Click-Through Rate (CTR)](#key-metrics-dwell-time-bounce-rate-and-click-through-rate-ctr)
-  - [How Page Experience and Core Web Vitals Influence SEO](#how-page-experience-and-core-web-vitals-influence-seo)
   - [SEO vs. SEM (Search Engine Marketing)](#seo-vs-sem-search-engine-marketing)
   - [Measuring the Impact of SEO vs. PPC on Business Goals](#measuring-the-impact-of-seo-vs-ppc-on-business-goals)
   - [Summary: Core Principles of SEO](#summary-core-principles-of-seo)
@@ -886,9 +885,6 @@ User intent falls into three main categories:
 3. **Click-Through Rate (CTR)**
    - Ratio of users who click on your link in SERPs.
    - Improve CTR with compelling meta titles and descriptions.
-
-### How Page Experience and Core Web Vitals Influence SEO
-Page experience is bigger than speed metrics: HTTPS, mobile-friendly layout, safe browsing (no malware), and avoiding intrusive interstitials. Treat those as trust and usability, not a second Core Web Vitals class. Integrate UX design with SEO by simplifying navigation (menus, breadcrumbs, internal links), optimizing readability, improving page speed, designing for accessibility, and iterating with tests, heatmaps (e.g., [Hotjar](https://www.hotjar.com/)), and user feedback.
 
 ### SEO vs. SEM (Search Engine Marketing)
 SEM is the paid half of search visibility. This book does not teach you to run ads. What follows is how to split budget and how to credit both channels when a conversion touches both.
