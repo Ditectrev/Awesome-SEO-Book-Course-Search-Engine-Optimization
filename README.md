@@ -1038,12 +1038,12 @@ Keywords are words or phrases that users enter into search engines when looking 
 - Low KD (<30) = easier to rank; High KD (>70) = highly competitive
 - Factors: Domain authority, backlinks, content quality
 
-4. **Cost-Per-Click** (CPC)
+3. **Cost-Per-Click** (CPC)
 - The average price advertisers pay for a click in paid campaigns
 - High CPC indicates commercial intent (e.g., "buy iPhone 15")
 - Useful for assessing keyword profitability
 
-5. **Additional Metrics**
+4. **Additional Metrics**
 - Click-Through Rate (CTR): Percentage of users who click on your result
 - Return Rate: How often users search for the same keyword again
 
