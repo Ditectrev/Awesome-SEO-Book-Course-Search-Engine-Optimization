@@ -163,7 +163,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Crafting Effective Title Tags and Meta Descriptions](#crafting-effective-title-tags-and-meta-descriptions)
     - [Image Optimization Techniques](#image-optimization-techniques)
     - [Building Internal Link Structures](#building-internal-link-structures)
-    - [Technical On-Page SEO](#technical-on-page-seo)
+  - [Technical On-Page SEO](#technical-on-page-seo)
     - [Subdomains vs. Subdirectories: What Works Best for SEO](#subdomains-vs-subdirectories-what-works-best-for-seo)
     - [The Role of URL Keywords and Length in SEO](#the-role-of-url-keywords-and-length-in-seo)
     - [Mobile Optimization Strategies](#mobile-optimization-strategies)
