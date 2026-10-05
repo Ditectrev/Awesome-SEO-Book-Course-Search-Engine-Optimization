@@ -923,212 +923,226 @@
 
 ### Advanced Techniques for Technical SEO <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
+* Website Performance Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Structured Data and Schema Markup <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Canonicalization and URL Structure <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Mobile-First Indexing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* HTTPS and Security <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* International SEO (hreflang) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
 ---
 
-#### The Role of Robots.txt and Sitemap Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+#### The Role of `robots.txt` and Sitemap Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
 ---
 
-##### Writing Effective Robots.txt Files and Avoiding Common Mistakes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+##### Writing Effective `robots.txt` Files and Avoiding Common Mistakes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Place robots.txt in the root directory (e.g., example.com/robots.txt) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use User-agent to specify crawlers (e.g., User-agent: Googlebot) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use Disallow to block sensitive directories (e.g., /admin/) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use Allow to override disallowed paths (e.g., Allow: /public/ in a blocked folder) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Blocking CSS/JS files (can hinder rendering) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Typos in directives (e.g., Disalow instead of Disallow) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Best Practices <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Common Mistakes <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+###### Example of a well-structured `robots.txt` <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```[|1|2|3|4]
+User-agent: *
+Allow: /public/
+Disallow: /private/
+Sitemap: https://example.com/sitemap.xml
+```
 
 ---
 
 ##### Creating and Submitting Dynamic XML Sitemaps <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Include only canonical URLs (no duplicates or blocked pages) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Limit sitemap size to 50,000 URLs or 50MB (split into multiple sitemaps if needed) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use , , and  tags (optional but helpful) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Google: Upload via Google Search Console (GSC) under "Sitemaps." <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Bing: Submit via Bing Webmaster Tools <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Best Practices <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Submitting to Search Engines <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+###### Example of a dynamic XML sitemap entry
+
+```xml[|1|6|1,6|2|3|4|5]
+<url>
+  <loc>https://example.com/page1</loc>
+  <lastmod>2024-05-20</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+```
 
 ---
 
 #### Troubleshooting Crawl Errors in [Search Console](https://search.google.com/search-console) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* 404 Not Found: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Fix broken links or set up 301 redirects <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use "Inspect URL" in GSC to diagnose <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Soft 404s: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Ensure empty pages return a 404/410 status code (not 200) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Server Errors (5xx): <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Common Crawl Errors <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Tools for Debugging <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Additional Resources <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Canonicalization and Dealing with Duplicate Content <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Prevents duplicate content penalties <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Consolidates ranking signals to a preferred URL <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Improves crawl efficiency by reducing wasted bot visits <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Ensures correct attribution of backlinks and social shares <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Why Canonicalization Matters <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 ##### Setting Up Canonical Tags Correctly <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* When you have multiple URLs with identical or nearly identical content <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* For e-commerce product pages with multiple sorting/filtering options <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* When content is syndicated or republished on other domains <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* For HTTP/HTTPS or www/non-www URL variations <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Self-referencing canonical: Every page should include a canonical tag pointing to itself as a default <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Cross-domain canonicalization: When syndicating content, use: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* When to Use Canonical Tags <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Self-referencing canonical <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Cross-domain canonicalization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
+---
+
+###### Self-referencing canonical <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1]
+<link rel="canonical" href="https://example.com/preferred-url/" />
+```
+---
+
+###### Cross-domain canonicalization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1]
+<link rel="canonical" href="https://original-domain.com/content/" />
+```
 ---
 
 ##### Managing URL Parameters to Avoid Duplicate Content Issues <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Use Google Search Console to specify how parameters should be handled <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Implement consistent URL structures across the site <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* For tracking parameters, use the rel="canonical" tag to point to the clean URL <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Canonical tags: Point to parameter-free version <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Robots.txt: Disallow crawling of parameter-heavy URLs <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* 301 redirects: Redirect parameter URLs to canonical version <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Best Practices for URL Parameters <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Parameter Handling Methods <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* When to Use Noindex <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* When to Use Nofollow <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Combining Canonical with Noindex/Nofollow <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Advanced Canonicalization Techniques <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Testing and Validation <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Common Canonicalization Mistakes <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
-##### Using Noindex, Nofollow, and Canonical Directives Wisely <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+##### Noindex Implementation <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* For search results pages <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Paginated content beyond page 1 <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Thin content pages that don't provide value <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Staging or development environments <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* For untrusted user-generated content <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Paid/sponsored links <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+```html[|1]
+<meta name="robots" content="noindex" />
+```
+---
 
+##### Nofollow Implementation <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1]
+<a href="example.com" rel="nofollow">Link</a>
+```
 ---
 
 ### Enhancing Site Architecture and Crawlability <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
-
-* Site architecture is the graph crawlers and users walk <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Navigation tells people where they are and tells crawlers which URLs matter <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Breadcrumbs, menus, and contextual links should describe the same hierarchy <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Creating SEO-Friendly Site Structures <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Logical Hierarchy: Group related content under relevant categories <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Clear Navigation: Use intuitive menus and internal linking <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* URL Structure: Keep URLs short, descriptive, and keyword-rich (e.g., /category/page-name) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Breadcrumbs: Improve user experience and help search engines understand page relationships <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-
 ---
 
 ##### Benefits of Flat vs. Deep Site Architecture <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Definition: Pages are accessible within 2-3 clicks from the homepage <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Advantages: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Easier for search engines to crawl and index <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Better link equity distribution <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Improved user experience due to shorter navigation paths <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Best For: Small to medium-sized websites <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Flat Site Architecture <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Deep Site Architecture <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Improving Crawl Efficiency and Page Discoverability <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Internal Linking: Use contextual links to guide crawlers and users to important pages <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* XML Sitemaps: Submit to Google Search Console to ensure all pages are discovered <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Robots.txt: Direct crawlers away from low-value pages (e.g., admin sections) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Canonical Tags: Prevent duplicate content issues by specifying the preferred page.  - Page Speed: Faster pages are crawled more efficiently <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Internal Linking <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* XML Sitemaps <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* `robots.txt` <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Canonical Tags <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Page Speed <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Crawl budget <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
-#### Tools for Analyzing Site Structure ([Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/), [Sitebulb](https://sitebulb.com/)) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+#### Tools for Analyzing Site Structure <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Features: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Crawls websites to identify broken links, duplicate content, and redirects <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Analyzes meta tags, headers, and page titles <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Generates visualizations of site architecture <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use Case: Technical SEO audits and site structure optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Features: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* [Sitebulb](https://sitebulb.com/) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Other Tools <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Implementing Breadcrumb Navigation for Better UX and SEO <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Enhanced User Experience: Helps users understand their location within the site structure <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Reduced Bounce Rates: Users can easily navigate to higher-level pages without using the back button <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* SEO Advantages: Search engines use breadcrumbs to understand site structure, potentially improving rankings <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Lower Cognitive Load: Users spend less mental effort navigating complex sites <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Hierarchical (Location-based): Shows the path from the homepage to the current page <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Attribute-based: Displays categories or attributes of the current page (common in e-commerce) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Benefits of Breadcrumb Navigation <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Types of Breadcrumbs <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Implementation Best Practices <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Best Practices for Internal Navigation Paths <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Hierarchical Structure: Create a logical pyramid with broad categories at the top and specific pages below <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Three-Click Rule: Important content should be reachable within three clicks from the homepage <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Contextual Linking: Use relevant anchor text in body content to link to related pages <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Footer Navigation: Include important links in the footer for quick access <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Limit top-level items to 5-7 categories for clarity <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use descriptive labels instead of clever or vague terms <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Key Principles <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Navigation Menu Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Technical Considerations <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Reducing Bounce Rates with Enhanced Navigation Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Clear Value Proposition: Ensure the page immediately communicates its purpose <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Visible Internal Links: Place relevant links prominently in content <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Related Content Sections: Suggest next steps at the bottom of articles/products <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Sticky Navigation: Keep primary menus accessible during scrolling <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Breadcrumbs Implementation: As discussed above <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use contrasting colors for clickable elements <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Navigation Fixes to Reduce Bounces <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Design Techniques <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Content Strategy Integration <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Analytics-Driven Improvements <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 #### Additional Considerations <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Mobile Navigation: Prioritize hamburger menus with clear labels <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Accessibility: Ensure keyboard navigability and proper ARIA labels <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Page Load Speed: Fast-loading pages improve engagement with navigation <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* User Testing: Observe real users navigating your site to identify pain points <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* SEO Audits: Regularly check for broken links or poor anchor text distribution <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Mobile Navigation <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Accessibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Page Load Speed <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* User Testing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* SEO Audits <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 ### Advanced Schema Markup Implementation <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Extra schema types, JSON-LD vs Microdata vs RDFa, and debugging <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Knowledge panels are entity results <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* No special schema type to opt in <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Consistent name, site, and profiles <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-
 ---
 
 #### The Differences Between JSON-LD, Microdata, and RDFa <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Format: JavaScript Object Notation for Linked Data <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Placement: Typically in the  or  as a  tag <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Advantages: <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Easy to maintain and separate from HTML <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Preferred by Google <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Less prone to errors <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* JSON-LD <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Microdata <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* RDFa (Resource Description Framework in Attributes) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
-#### Step-by-Step Examples for Common Markup Types <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+#### Example for a Common Markup Types <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Review (only if stars are on the page) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Article <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* LocalBusiness <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* BreadcrumbList <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+```json[|1|13|1,13|2|3|4|5|11|5,11|6|7|8|9|10|12]
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Business Name",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Main St",
+    "addressLocality": "City",
+    "addressRegion": "State",
+    "postalCode": "12345"
+  },
+  "telephone": "+11234567890"
+}
+```
 
 ---
 
 #### Debugging and Validating Structured Data with Google’s Tools <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Rich Results Test <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* schema.org validator <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Search Console enhancement reports <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Markup must match visible content <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* [Rich Results Test](https://search.google.com/test/rich-results) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* [schema.org validator](https://validator.schema.org/) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* [Search Console](https://search.google.com/search-console) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
@@ -1146,34 +1160,37 @@
 
 ##### The Role of Long-Tail and Conversational Keywords <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Length <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Typed queries often use 1–3 words <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Voice queries commonly use 5–12 words and sound like everyday speech <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Question format <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Spoken searches frequently start with who, what, where, when, why, or how <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* They also use phrases such as “the best,” “near me,” “open now,” and “how do I.” <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* How Spoken Queries Differ from Typed Queries <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Finding Conversational Keywords <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* How to Use Conversational Keywords Without Stuffing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Example <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
 ##### Structuring Content to Answer Voice Search Queries <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* FAQ blocks <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Group real customer questions <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Put the question in a heading and the answer in the paragraph immediately below <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Add FAQ schema when the questions are actually on the page <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* How-to content <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Use numbered steps <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Page Patterns That Work for Voice <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Practical Structure for a Voice-Friendly Section <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Technical and Content Checklist <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Featured Snippets and Position Zero <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+###### Practical Structure for a Voice-Friendly Section <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|3]
+<h2>What time does the downtown library close on Sunday?</h2>
+<p>The downtown library closes at 5:00 p.m. on Sunday. The building opens at 12:00 p.m.</p>
+<p>Holiday hours can change, so check the library’s [Google Business Profile](https://www.google.com/business/) or call before you visit.</p>
+```
 
 ---
 
 ##### The Future of Voice Search in SEO Strategy <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Local and “do” queries <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Hours, directions, availability, pricing, and appointments remain the highest-value spoken searches for most businesses <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Question hubs <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Maintain FAQ and how-to pages that reflect how customers actually speak <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Entity clarity <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Consistent name, address, phone, categories, and schema help assistants connect a query to the right business <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* What to Prioritize <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* What Not to Over-Index On <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Ongoing Practice <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
@@ -1433,7 +1450,7 @@
 
 #### Be Eligible to Be Retrieved <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Allowed in robots.txt for Googlebot; not blocked by the WAF <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Allowed in `robots.txt` for Googlebot; not blocked by the WAF <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Indexable and snippet-eligible (nosnippet is a deliberate choice) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Important content in HTML text; internal links can discover the URL <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Eligibility is necessary and never sufficient <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
@@ -1533,16 +1550,16 @@
 
 * Search bots build the live answer index; blocking them usually means “do not cite me” <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Training bots may feed future weights; that is a licensing choice, not a Search ranking lever <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* User-initiated fetchers may not honor robots.txt the same way <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* User-initiated fetchers may not honor `robots.txt` the same way <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Google Search does not use GPTBot; Google-Extended does not change AI Overviews <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
 ---
 
-#### robots.txt Decisions Without Panic <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+#### `robots.txt` Decisions Without Panic <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
 * Allow search crawlers for the products your customers use unless legal says otherwise <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Decide training crawlers separately and write the decision down <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
-* Allow robots.txt itself; whitelist allowed bots on the WAF <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Allow `robots.txt` itself; whitelist allowed bots on the WAF <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Optional llms.txt is fine for other systems; Google Search ignores it <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Confirm tokens on OpenAI, Perplexity, and Anthropic docs before you ship a file <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 
@@ -1705,7 +1722,7 @@
 
 #### Using Automated Tools ([SEOmator](https://seomator.com/), [DeepCrawl](https://www.lumar.io/)) for SEO Checks <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-* Availability and response codes (5xx spikes, accidental noindex, robots.txt blocking) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Availability and response codes (5xx spikes, accidental noindex, `robots.txt` blocking) <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Sitemap vs. live indexable URL gaps <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Title, meta, H1 duplicates or missing tags on templates <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Canonical and hreflang errors <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->

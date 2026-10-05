@@ -212,8 +212,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [Summary: Off-Page SEO](#summary-off-page-seo)
 - [Technical SEO](#technical-seo)
   - [Advanced Techniques for Technical SEO](#advanced-techniques-for-technical-seo)
-    - [The Role of Robots.txt and Sitemap Optimization](#the-role-of-robotstxt-and-sitemap-optimization)
-      - [Writing Effective Robots.txt Files and Avoiding Common Mistakes](#writing-effective-robotstxt-files-and-avoiding-common-mistakes)
+    - [The Role of `robots.txt` and Sitemap Optimization](#the-role-of-robotstxt-and-sitemap-optimization)
+      - [Writing Effective `robots.txt` Files and Avoiding Common Mistakes](#writing-effective-robotstxt-files-and-avoiding-common-mistakes)
       - [Creating and Submitting Dynamic XML Sitemaps](#creating-and-submitting-dynamic-xml-sitemaps)
     - [Troubleshooting Crawl Errors in Search Console](#troubleshooting-crawl-errors-in-search-console)
     - [Canonicalization and Dealing with Duplicate Content](#canonicalization-and-dealing-with-duplicate-content)
@@ -283,7 +283,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [Chatbots, Assistants, and Other Answer Engines](#chatbots-assistants-and-other-answer-engines)
     - [ChatGPT, Gemini, Copilot, Claude, and Perplexity](#chatgpt-gemini-copilot-claude-and-perplexity)
     - [Training Crawlers Versus Search Crawlers](#training-crawlers-versus-search-crawlers)
-    - [robots.txt Decisions Without Panic](#robotstxt-decisions-without-panic)
+    - [`robots.txt` Decisions Without Panic](#robotstxt-decisions-without-panic)
   - [Voice, Visual, and Agent Surfaces](#voice-visual-and-agent-surfaces)
     - [Voice and Visual as the Same Practice](#voice-and-visual-as-the-same-practice)
     - [Preparing Pages for Browser Agents](#preparing-pages-for-browser-agents)
@@ -2518,11 +2518,11 @@ Technical SEO refers to the process of optimizing a website's infrastructure to 
 - Use `hreflang` tags for multilingual/multiregional sites.
 - Avoid common mistakes like incorrect country/language codes.
 
-#### The Role of Robots.txt and Sitemap Optimization
+#### The Role of `robots.txt` and Sitemap Optimization
 
 `robots.txt` and XML sitemaps are how you hint what should be crawled and what should be discovered. They do not guarantee indexation, and a typo can hide the whole site.
 
-##### Writing Effective Robots.txt Files and Avoiding Common Mistakes
+##### Writing Effective `robots.txt` Files and Avoiding Common Mistakes
 
 **Best Practices**:
 - Place `robots.txt` in the root directory (e.g., `example.com/robots.txt`).
@@ -2581,8 +2581,8 @@ Sitemap: https://example.com/sitemap.xml
 4. **Redirect Chains**:
 - Simplify long redirects (e.g., A → B → C → D → E).
 
-5. **Blocked by Robots.txt**:
-- Review robots.txt to ensure critical pages aren’t disallowed.
+5. **Blocked by `robots.txt`**:
+- Review `robots.txt` to ensure critical pages aren’t disallowed.
 
 **Tools for Debugging:**
 - [Google Search Console](https://search.google.com/search-console): Crawl stats and error reports.
@@ -2590,7 +2590,7 @@ Sitemap: https://example.com/sitemap.xml
 - Log File Analysis: Track crawler behavior (e.g., Googlebot frequency).
 
 **Additional Resources**:
-- [Google’s Robots.txt Specifications](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt)
+- [Google’s `robots.txt` Specifications](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt)
 - [XML Sitemaps Protocol](https://www.sitemaps.org/protocol.html)
 - [Google Search Console](https://search.google.com/search-console) Help
 
@@ -2637,7 +2637,7 @@ Canonicalization refers to the process of selecting the best URL when multiple U
 
 **Parameter Handling Methods**
 1. Canonical tags: Point to parameter-free version
-2. Robots.txt: Disallow crawling of parameter-heavy URLs
+2. `robots.txt`: Disallow crawling of parameter-heavy URLs
 3. 301 redirects: Redirect parameter URLs to canonical version
 
 ##### Using Noindex, Nofollow, and Canonical Directives Wisely
@@ -2723,7 +2723,7 @@ A well-organized site structure helps search engines crawl and index pages effic
 
 - **Internal Linking**: Use contextual links to guide crawlers and users to important pages.
 - **XML Sitemaps**: Submit to [Google Search Console](https://search.google.com/search-console) to ensure all pages are discovered.
-- **Robots.txt**: Direct crawlers away from low-value pages (e.g., admin sections).
+- **`robots.txt`**: Direct crawlers away from low-value pages (e.g., admin sections).
 - **Canonical Tags**: Prevent duplicate content issues by specifying the preferred page.
 - **Page Speed**: Faster pages are crawled more efficiently.
 - **Crawl budget**: Site size, update frequency, and server speed decide how many URLs Googlebot fetches. Drop thin or parameter URLs, fix slow TTFB, and point internal links at money pages so the budget is not spent on junk.
@@ -3699,7 +3699,7 @@ Most major labs now split the user agents:
 
 Google Search does not use GPTBot. Allowing or denying GPTBot does not change AI Overviews. [Google-Extended](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) does not change Search ranking. Keep those controls mentally on a different shelf from Googlebot.
 
-#### robots.txt Decisions Without Panic
+#### `robots.txt` Decisions Without Panic
 
 Decide in writing, then implement. A default that fits most businesses that *want* to be found:
 
@@ -3997,7 +3997,7 @@ SEO work is cyclical: monitor for surprises, audit for causes, fix, then report 
 Automated crawlers and monitors catch issues humans miss between quarterly audits.
 
 **What to Automate**
-- Availability and response codes (5xx spikes, accidental `noindex`, robots.txt blocking).
+- Availability and response codes (5xx spikes, accidental `noindex`, `robots.txt` blocking).
 - Sitemap vs. live indexable URL gaps.
 - Title, meta, H1 duplicates or missing tags on templates.
 - Canonical and hreflang errors.
