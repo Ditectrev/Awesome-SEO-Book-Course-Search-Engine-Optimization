@@ -244,7 +244,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [The Basics of Local SEO](#the-basics-of-local-seo)
     - [Key Differences Between Local SEO and General SEO](#key-differences-between-local-seo-and-general-seo)
     - [Setting Up and Verifying a Google Business Profile](#setting-up-and-verifying-a-google-business-profile)
-    - [Optimizing Your Profile with Photos, Keywords, and Features](#optimizing-your-profile-with-photos-keywords-and-features)
   - [Advanced Local SEO Strategies](#advanced-local-seo-strategies)
     - [Conducting Local Keyword Research](#conducting-local-keyword-research)
       - [Utilizing Geo-Specific Modifiers and Location Keywords](#utilizing-geo-specific-modifiers-and-location-keywords)
@@ -254,7 +253,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [Incorporating Local Events, News, and Community Involvement](#incorporating-local-events-news-and-community-involvement)
     - [Structuring Landing Pages for Multiple Locations](#structuring-landing-pages-for-multiple-locations)
   - [Local Citations and Directory Listings](#local-citations-and-directory-listings)
-    - [Importance of NAP Consistency Across Platforms](#importance-of-nap-consistency-across-platforms)
     - [Top Tools for Managing Citations (BrightLocal, Yext)](#top-tools-for-managing-citations-brightlocal-yext)
     - [Correcting Duplicate and Inconsistent Listings](#correcting-duplicate-and-inconsistent-listings)
     - [Industry-Specific Directories for Niche Local SEO](#industry-specific-directories-for-niche-local-seo)
@@ -3108,75 +3106,7 @@ GBP setup, location pages, and citation cleanup follow.
 
 [Google Business Profile](https://www.google.com/business/) (GBP), formerly Google My Business, is the listing that powers your presence in Google Search and [Google Maps](https://www.google.com/maps). For most local businesses, it is the single most important local SEO asset. An unverified or incomplete profile is easy for competitors to outrank, even if your website is strong. Go to [Google Business Profile](https://www.google.com/business/) and follow the steps on the site to create or claim the listing and verify it.
 
-#### Optimizing Your Profile with Photos, Keywords, and Features
-
-A verified profile that is empty still underperforms. Treat GBP like a landing page: complete, current, and useful.
-
-**Core Fields to Complete**
-1. **Business description**
-   - Write in natural language. Mention services and the city or region once, without repeating the same keyword.
-   - Explain who you serve and what makes the business distinct.
-
-2. **Hours and special hours**
-   - Keep regular hours accurate.
-   - Add holiday and temporary hours before they take effect.
-   - Mark the business temporarily closed rather than leaving stale “open” hours.
-
-3. **Products and services**
-   - Add the services customers search for, with short descriptions and prices when you can share them.
-   - Use GBP products for tangible items and menus where the category supports them.
-
-4. **Attributes**
-   - Select attributes that are true (women-owned, wheelchair accessible, outdoor seating, identity-verified, and so on). False attributes damage trust.
-
-5. **Booking, messaging, and calls**
-   - Enable messaging only if someone will reply.
-   - Connect a booking link or Reserve with Google when it matches the business type.
-   - Track calls from the listing when possible.
-
-**Photos and Videos**
-- Upload a **logo**, **cover photo**, **exterior**, **interior**, **team**, and **work/product** photos.
-- Use recent, well-lit images. Google often prefers photos that look like a real visit over heavy filters.
-- Add photos regularly; inactive profiles look abandoned.
-- Geotagging is optional; accuracy of what the photo shows matters more than hidden EXIF tricks.
-- Avoid stock photos that could belong to any business.
-
-**Keywords Without Spam**
-- Place location and service terms in the **description**, **services list**, **posts**, and **Q&A**, not in the business name.
-- Example of a clean name: `Riverside Family Dental`.
-- Example of a spammy name: `Riverside Family Dental | Best Dentist Near Me Cheap Teeth Whitening`.
-- Use **Google Posts** to announce offers, events, and new services with natural keywords.
-- Seed **Q&A** with real questions customers ask, then answer them in the same conversational style used for voice search.
-
-**Reviews and Engagement**
-- Ask for reviews after a good experience, following Google’s review policies (no incentives for Google reviews).
-- Reply to every review. Thank positive reviewers; address negatives with facts and a next step.
-- Reviews that mention services and neighborhoods help relevance, but never script fake phrasing.
-
-**LocalBusiness Schema on the Website**
-Match the GBP NAP on your site and mark it up:
-
-```json
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Riverside Family Dental",
-  "telephone": "+1-512-555-0148",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "500 Riverside Dr",
-    "addressLocality": "Austin",
-    "addressRegion": "TX",
-    "postalCode": "78704"
-  },
-  "url": "https://www.example.com/",
-  "openingHours": "Mo-Fr 08:00-17:00"
-}
-</script>
-```
-
-The website and GBP should tell the same story. Conflicting hours, phone numbers, or addresses weaken both.
+A verified profile that is empty still underperforms. Treat it like a landing page: complete the description, hours (including holidays), services, and only the attributes that are true. Add recent photos of the logo, exterior, interior, team, and work—not stock images. Put location and service terms in the description, services, posts, and Q&A, not in the business name (`Riverside Family Dental`, not `Best Dentist Near Me Cheap Teeth Whitening`). Ask for reviews after a good experience, with no incentives, and reply to every one. Match the same name, address, phone, and hours on your website. Conflicting facts weaken both.
 
 ### Advanced Local SEO Strategies
 
@@ -3341,27 +3271,7 @@ Multi-location brands need a clear architecture so users and crawlers can find t
 
 Citations are online mentions of your business name, address, and phone number. They appear in directories, maps, social profiles, and industry sites. Consistent citations help search engines confirm that your business is real, where it operates, and how to contact it.
 
-#### Importance of NAP Consistency Across Platforms
-
-NAP consistency means the **name**, **address**, and **phone number** match across your website, [Google Business Profile](https://www.google.com/business/), and other listings. Small differences add up: `Ste.` vs. `Suite`, a tracking number on one site and the main number on another, or an old downtown address that still appears on [Yelp](https://www.yelp.com/).
-
-**Why Consistency Matters**
-- Search engines use citations as a trust and prominence signal for local pack rankings.
-- Users who find conflicting information may call the wrong number or visit the wrong address.
-- Inconsistent NAP makes merges and duplicate listings more likely.
-- Review sites and maps products often syndicate from a few major data providers; an error at the source can spread widely.
-
-**NAP Standards**
-1. **Name**: Use the real-world business name. Match GBP.
-2. **Address**: Follow USPS (or local postal) formatting. Include suite numbers the same way everywhere.
-3. **Phone**: One primary local number for citations. Put tracking numbers on ads or the website, not on core citations.
-4. **URL**: Prefer the location page or homepage consistently.
-5. **Categories**: Close to your GBP primary category, adapted to each directory’s taxonomy.
-
-**Where Citations Come From**
-- Primary data aggregators (such as [Data Axle](https://www.dataaxle.com/), [Foursquare](https://foursquare.com/), and similar feeds, depending on market).
-- Major platforms: Google, [Bing Places](https://www.bingplaces.com/), [Apple Maps](https://businessconnect.apple.com/), [Facebook](https://www.facebook.com/business), [Yelp](https://www.yelp.com/).
-- Industry and local directories covered later in this section.
+NAP consistency means that **name**, **address**, and **phone number** match across your website, [Google Business Profile](https://www.google.com/business/), and other listings. Small differences—`Ste.` versus `Suite`, a tracking number on one site and the main number on another, or an old address still on [Yelp](https://www.yelp.com/)—weaken that signal, confuse customers, and make duplicate listings more likely. Use the real-world business name, the same postal formatting, and one primary local number everywhere. Platforms such as Google, [Bing Places](https://www.bingplaces.com/), [Apple Maps](https://businessconnect.apple.com/), [Facebook](https://www.facebook.com/business), and [Yelp](https://www.yelp.com/) often pick up data from aggregators such as [Data Axle](https://www.dataaxle.com/) and [Foursquare](https://foursquare.com/), so an error at the source can spread widely.
 
 #### Top Tools for Managing Citations ([BrightLocal](https://www.brightlocal.com/), [Yext](https://www.yext.com/))
 
