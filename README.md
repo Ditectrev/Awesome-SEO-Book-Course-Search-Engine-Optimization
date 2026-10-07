@@ -268,11 +268,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
     - [SXO, VEO, GIO, and AgEO](#sxo-veo-gio-and-ageo)
     - [Acronyms We Skip (and Why)](#acronyms-we-skip-and-why)
   - [The Shared Practice](#the-shared-practice)
-    - [Be Eligible to Be Retrieved](#be-eligible-to-be-retrieved)
-    - [Write Extractable, Citable Answers](#write-extractable-citable-answers)
-    - [Prove Experience, Entities, and Trust](#prove-experience-entities-and-trust)
-    - [Earn Mentions the Web Already Believes](#earn-mentions-the-web-already-believes)
-    - [Structured Data, Media, and Local Facts](#structured-data-media-and-local-facts)
   - [Google AI Overviews and AI Mode](#google-ai-overviews-and-ai-mode)
     - [How Google Grounds Generative Answers](#how-google-grounds-generative-answers)
     - [Eligibility Versus Inclusion](#eligibility-versus-inclusion)
@@ -3452,90 +3447,11 @@ Skip any acronym whose only content is “pay us to insert `llms.txt` and guaran
 
 Here is the work once. Every acronym above is a camera angle on this list.
 
-#### Be Eligible to Be Retrieved
-
-If the page cannot be crawled, indexed, and shown with a snippet, Google cannot use it as a supporting link in AI Overviews or AI Mode. Other answer engines that fetch the live web have the same first filter: a public URL that returns useful text.
-
-**Eligibility checklist (Google Search, which is also the AI Overview/AI Mode bar)**
-1. The URL is allowed in `robots.txt` for [Googlebot](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) (and not blocked by a CDN/WAF that thinks Google is an attack).
-2. The page is indexable (no accidental `noindex`, login wall, or soft 404).
-3. The page is eligible to show a snippet (you have not disabled previews with `nosnippet` unless that is a deliberate choice).
-4. Important content is in the HTML text, not only in an image or a widget the crawler never sees.
-5. Internal links can actually discover the URL.
-6. The Search Console property is included in Search generative AI features if Google exposes that control on the property.
-
-Eligibility is necessary and never sufficient. Google still decides whether an AI feature triggers and which sources support a given response.
-
-#### Write Extractable, Citable Answers
-
-Models and snippet systems lift passages that can stand alone. That is the old featured-snippet habit, not a new file format.
-
-**Write the page for a human first, then make the answer easy to lift:**
-- Put a direct answer near the question-style heading: one or two sentences that would still be true if quoted alone.
-- Follow with proof: numbered steps, a table, constraints, exceptions, and a named source for any statistic (who measured it, when).
-- Use headings that match how people ask (“How do we verify a [Google Business Profile](https://www.google.com/business/)?”), not a clever brand slogan.
-- Prefer specific nouns over vague ones. “Acme Plumbing in Austin repairs tankless water heaters” is an entity statement; “We care about quality service” is not.
-- Keep author, date, and update visible on pages that claim facts. Stale undated medical or legal advice is a trust problem in SERPs and in chat.
-- Do not clone the SERP. Google’s generative-AI guide asks for *non-commodity* content: first-hand experience, original data, a point of view that is not “seven generic tips.”
-
-A worked pattern you can reuse:
-
-```text
-#### How long does a residential water-heater install take?
-
-A standard tank water-heater swap in a finished closet usually takes three to five hours once parts are on site. Same-day tankless installs often run a full day because of venting and electrical work.
-
-Scope that changes the clock: permit waits, pan and drain upgrades, and moving the unit to a new wall.
-```
-
-That block is useful to a person, easy to cite, and honest about limits. It is not “chunking for AI.” Google says you do not need to shatter articles into micro-pages for models to understand them. Write the length the reader needs.
-
-#### Prove Experience, Entities, and Trust
-
-Generated answers prefer sources that look like a real organization with a real expert, especially when the topic can affect health, money, or safety.
-
-**On the page**
-- Named author with credentials that match the topic.
-- First-hand language you can defend (what you tested, sold, repaired, or measured).
-- Contact, organization, and policy pages that match the brand elsewhere.
-- Quotes and data attributed to a primary source, not to “studies show.”
-
-**In the knowledge graph of the web**
-- Consistent legal name, brand name, and same-as profiles (site, [Wikipedia](https://www.wikipedia.org/) or Wikidata only if they already exist and are accurate — do not manufacture a wiki war).
-- [Google Business Profile](https://www.google.com/business/) and [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/) when you are local or sell products. Generative answers reuse those facts.
-- Reviews and mentions on sites people actually read, not on link farms.
-
-This is E-E-A-T and entity SEO. Calling it LLMO does not change the checklist.
-
-#### Earn Mentions the Web Already Believes
-
-Off-page SEO still matters because both ranking systems and generators look at what the rest of the web says. Google’s generative-AI guide warns against *inauthentic* mentions: paying for fake roundups, spraying AI-written “best of” posts, or stuffing your brand into unrelated forums.
-
-**Mentions worth earning**
-- A journalist, association, or practitioner citing your method or data.
-- A genuine forum or Reddit thread where a user recommends you for a specific job (you do not control this; you earn it by being recommendable).
-- Digital PR that publishes a unique dataset, tool, or local resource other sites want to link.
-
-**Mentions to skip**
-- “Write for us” networks that exist to sell AI-citation packages.
-- Identical guest posts with your brand swapped in.
-- Fake expert quotes.
-
-If you would be embarrassed to show the placement to a journalist and to Google’s spam team, it will not help a chatbot either.
-
-#### Structured Data, Media, and Local Facts
-
-Structured data is not a special AI-Overview schema. Google says there is no extra markup required for generative AI features, and that `llms.txt` does not affect Google Search. Keep using [schema.org](https://schema.org/) the way Technical SEO already taught: it must match the visible page, and it still helps rich results.
-
-Use the types you already need:
-- `Organization` / `LocalBusiness` with matching NAP.
-- `Product` / `Offer` when you sell things.
-- `FAQPage` only for FAQs the user can actually see.
-- `HowTo`, `Article`, `ImageObject`, `VideoObject` when they describe real content.
-
-Images and video are not decoration here. Google’s AI features can surface media as well as links. Descriptive filenames, alt text, captions, and transcripts remain the work.
-
-For local and product queries, stale hours or missing Merchant Center feeds will show up in generated answers as confidently as they show up in the local pack. Keep the Local SEO source-of-truth sheet current.
+- **Be eligible to be retrieved.** If the page cannot be crawled, indexed, and shown with a snippet, Google cannot use it as a supporting link in AI Overviews or AI Mode. Other answer engines that fetch the live web have the same filter: a public URL that returns useful text. Allow the URL in `robots.txt` for [Googlebot](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) (and do not let a CDN/WAF treat Google as an attack). Keep the page indexable (no accidental `noindex`, login wall, or soft 404) and snippet-eligible (`nosnippet` only as a deliberate choice). Put important content in the HTML, make sure internal links can discover the URL, and include the Search Console property in Search generative AI features if that control exists. Eligibility is necessary and never sufficient.
+- **Write extractable, citable answers.** Write for a human first. Put one or two sentences that would still be true if quoted alone under a question-style heading (“How do we verify a [Google Business Profile](https://www.google.com/business/)?”), then the proof: steps, a table, exceptions, and a named source for any statistic. “A standard tank water-heater swap in a finished closet usually takes three to five hours once parts are on site; permits, venting, and moving the unit change the clock” is citable. “We care about quality service” is not. Show author, date, and update on pages that claim facts. Google asks for non-commodity content (first-hand experience, original data, a real point of view) and says you do not need to shatter articles into micro-pages. Write the length the reader needs.
+- **Prove experience, entities, and trust.** Generated answers prefer a real organization with a real expert, especially on health, money, or safety. Name an author whose credentials match the topic, use first-hand language you can defend, and attribute quotes and data to a primary source. Keep contact and policy pages consistent with the brand. Use the same legal name and same-as profiles ([Wikipedia](https://www.wikipedia.org/) or Wikidata only if they already exist and are accurate). Add [Google Business Profile](https://www.google.com/business/) and [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/) when you are local or sell products. This is E-E-A-T and entity SEO. Calling it LLMO does not change the checklist.
+- **Earn mentions the web already believes.** Ranking systems and generators both look at what the rest of the web says. Worth earning: a journalist, association, or practitioner citing your method or data; a genuine forum recommendation you earn by being recommendable; digital PR built on a unique dataset, tool, or local resource. Skip “write for us” networks, identical guest posts, and fake expert quotes. Google’s generative-AI guide warns against inauthentic mentions. If you would be embarrassed to show the placement to a journalist and to Google’s spam team, it will not help a chatbot either.
+- **Keep structured data, media, and local facts current.** There is no special AI-Overview schema, and `llms.txt` does not affect Google Search. Keep [schema.org](https://schema.org/) that matches the visible page: `Organization` / `LocalBusiness` with matching NAP, `Product` / `Offer` when you sell things, `FAQPage` only for FAQs the user can see, and `HowTo`, `Article`, `ImageObject`, `VideoObject` when they describe real content. AI features can surface media as well as links, so filenames, alt text, captions, and transcripts still matter. Stale hours or a missing Merchant Center feed show up in generated answers as confidently as they show up in the local pack.
 
 ### Google AI Overviews and AI Mode
 
