@@ -121,7 +121,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
   - [The Role of Trustworthiness (E-E-A-T) in SEO](#the-role-of-trustworthiness-e-e-a-t-in-seo)
   - [The Role of Content and User Experience](#the-role-of-content-and-user-experience)
   - [Aligning Content with User Intent for SEO](#aligning-content-with-user-intent-for-seo)
-  - [Key Metrics: Dwell Time, Bounce Rate, and Click-Through Rate (CTR)](#key-metrics-dwell-time-bounce-rate-and-click-through-rate-ctr)
   - [SEO vs. SEM (Search Engine Marketing)](#seo-vs-sem-search-engine-marketing)
   - [Measuring the Impact of SEO vs. PPC on Business Goals](#measuring-the-impact-of-seo-vs-ppc-on-business-goals)
   - [Summary: Core Principles of SEO](#summary-core-principles-of-seo)
@@ -750,13 +749,16 @@ Technical SEO ensures search engines can crawl and index a site efficiently:
 
 Google’s E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) framework is crucial, especially for YMYL (Your Money Your Life) sites:
 
-1. **Expertise**:
+1. **Experience**:
+   - Content should show first-hand experience with the topic.
+
+2. **Expertise**:
    - Content should be created by knowledgeable authors.
 
-2. **Authoritativeness**:
+3. **Authoritativeness**:
    - The website and authors should be recognized as authorities in their field.
 
-3. **Trustworthiness**:
+4. **Trustworthiness**:
    - Secure and transparent sites (clear privacy policies, contact info) build trust.
 
 ### The Role of Content and User Experience
@@ -803,20 +805,6 @@ User intent falls into three main categories:
 **How to Align Content:**
 - Analyze top-ranking pages for a keyword to understand intent.
 - Match content type (blog, product page, video) to the query.
-
-### Key Metrics: Dwell Time, Bounce Rate, and Click-Through Rate (CTR)
-
-1. **Dwell Time**
-   - Measures how long users stay on a page before returning to SERPs.
-   - Longer dwell time signals content relevance and quality.
-
-2. **Bounce Rate**
-   - Percentage of visitors who leave without interacting.
-   - High bounce rates may indicate poor content or UX (but context matters).
-
-3. **Click-Through Rate (CTR)**
-   - Ratio of users who click on your link in SERPs.
-   - Improve CTR with compelling meta titles and descriptions.
 
 ### SEO vs. SEM (Search Engine Marketing)
 
