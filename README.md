@@ -1062,7 +1062,7 @@ Before you commit to a keyword, search it. The results page shows the format Goo
 **Analysis Techniques**
 
 1. Perform manual searches for target keywords
-2. Use tools like [Moz](https://moz.com/) or [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) to identify SERP feature opportunities
+2. Use [Moz](https://moz.com/) to identify SERP feature opportunities
 3. Monitor feature ownership to spot gaps
 
 #### Keyword Prioritization Based on Business Goals
