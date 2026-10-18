@@ -1,4 +1,4 @@
-# 📚 Awesome SEO Book & Course: Search Engine Optimization
+# 📚 Awesome SEO Book & Course: Search Engine Optimization (SEO)
 
 ![Promotional image](images/promotional.png)
 
