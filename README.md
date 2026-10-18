@@ -31,7 +31,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 3. Learn about topics, such as 😱
    - Introduction to SEO:
      - What is SEO?;
-   - History and Evolution of SEO:
+   - History and Evolution of SEO;
    - Core Principles of SEO:
      - SEO vs. SEM (Search Engine Marketing);
    - Search Engine Basics:
