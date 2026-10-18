@@ -29,10 +29,10 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 1. Always happy to answer your questions 😊
 2. Unhappy? Please raise a refund; we'll always accept it 💸
 3. Learn about topics, such as 😱
-   - Introduction to SEO;
+   - Introduction to SEO:
      - What is SEO?;
-   - History and Evolution of SEO;
-   - Core Principles of SEO;
+   - History and Evolution of SEO:
+   - Core Principles of SEO:
      - SEO vs. SEM (Search Engine Marketing);
    - Search Engine Basics:
      - Crawling, Indexing, and Ranking;
