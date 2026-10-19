@@ -6,12 +6,13 @@
 
 There are many ways to support us; in exchange, you'll get this material in a proper format:
 
-- ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com/product/TODO),
-- ▶️ [Udemy, in an interactive video course format](https://www.udemy.com/course/TODO),
-- 🆓 [Shorter, but free, part of our Udemy course is available on YouTube](https://www.youtube.com/playlist?list=TODO),
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com/product/awesome-seo-book-search-engine-optimization-seo),
+- ▶️ [Udemy, in an interactive video course format](https://www.udemy.com/user/social-ditectrev/),
+- 🆓 [Shorter, but free, part of our Udemy course is available on YouTube](https://www.youtube.com/playlist?list=PLOvxiLttEiuc),
+- 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too)](https://www.amazon.com//Daniel-Danielecki-book/dp/B0HNK6VM77),
 - 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/details?id=TODO),
-- 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/TODO),
-- 🛒 [eBay, in PDF format](https://www.ebay.com/itm/TODO),
+- 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/4597847226),
+- 🛒 [eBay, in PDF format](https://ebay.io/m/EdKavl),
 - 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
 💰 If you work for a company, you could probably easily claim this expense while learning this topic. For us, it's about being in the game or not.
