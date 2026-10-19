@@ -64,9 +64,17 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 ## ☝️ Book & Course Updates
 
-**[v1.0.0](../../releases/tag/v1.0.0): September 18, 2026.**
+**[v1.0.0](../../releases/tag/v1.0.0): October 19, 2026.**
 
 - Launch of the book.
+
+**[v1.1.0](../../releases/tag/v1.1.0): December X, 2026.**
+
+- Post-recording improvements.
+
+**[v1.1.0](../../releases/tag/v1.1.0): December X, 2026.**
+
+- Launch of the course.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
