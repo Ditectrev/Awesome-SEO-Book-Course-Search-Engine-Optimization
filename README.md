@@ -10,7 +10,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 - ▶️ [Udemy, in an interactive video course format](https://www.udemy.com/user/social-ditectrev/),
 - 🆓 [Shorter, but free, part of our Udemy course is available on YouTube](https://www.youtube.com/playlist?list=PLOvxiLttEiuc),
 - 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too)](https://www.amazon.com//Daniel-Danielecki-book/dp/B0HNK6VM77),
-- 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/details?id=TODO),
+- 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/collection/cluster?gsr=SheCARQKEAoMMkNnQUVnQUFRQkFKEAkQBA%3D%3D:S:ANO1ljKluK8),
 - 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/4597847226),
 - 🛒 [eBay, in PDF format](https://ebay.io/m/EdKavl),
 - 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
