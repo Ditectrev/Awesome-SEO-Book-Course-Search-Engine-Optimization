@@ -1438,6 +1438,7 @@ Creating SEO-friendly content involves balancing readability with search engine 
   - H2: Major section headings
   - H3: Sub-sections under H2s
   - H4-H6: Further nested content when needed
+
   Headers should:
   - Contain relevant keywords
   - Follow logical content flow
@@ -1472,6 +1473,7 @@ Creating SEO-friendly content involves balancing readability with search engine 
   - SEO through clear structure
   - Users through predictable flow
   - Accessibility for screen readers
+
   Implementation tips:
   - Pyramid structure (broad to specific)
   - Chunk related information together
